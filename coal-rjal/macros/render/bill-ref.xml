@@ -1,0 +1,26 @@
+<macro name="bill-ref">
+    <group delimiter=", ">
+        <group delimiter=" ">
+            <text term="bill" />
+            <number variable="number" />
+        </group>
+        <text macro="book-title" />
+        <group delimiter=" ">
+            <text macro="bill-publication" />
+        </group>
+        <text macro="jurisdiction" />
+        <group delimiter=" ">
+            <text macro="year-issued" />
+            <text macro="pinpoint" />
+            <text variable="other-relevant-information" prefix="(" suffix=")" />
+        </group>
+        <choose>
+            <if variable="container-title">
+                <group delimiter=" ">
+                    <text variable="container-title" />
+                    <text macro="statute-chapter" />
+                </group>
+            </if>
+        </choose>
+    </group>
+</macro>

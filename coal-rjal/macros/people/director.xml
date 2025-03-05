@@ -1,0 +1,5 @@
+<macro name="director">
+ <names variable="director">
+  <text macro="name-format" />
+ </names>
+</macro>

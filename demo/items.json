@@ -1,0 +1,1382 @@
+[
+	{
+		"id": "http://zotero.org/groups/5899098/items/CNYXSXK7",
+		"type": "book",
+		"multi": {
+			"main": {},
+			"_keys": {}
+		},
+		"note": "original-date: 1925",
+		"publisher": "Project Gutenberg",
+		"title": "The Trial",
+		"author": [
+			{
+				"family": "Kafka",
+				"given": "Franz",
+				"multi": {
+					"_key": {}
+				}
+			}
+		],
+		"translator": [
+			{
+				"family": "Wyllie",
+				"given": "David",
+				"multi": {
+					"_key": {}
+				}
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2005"
+				]
+			]
+		},
+		"seeAlso": []
+	},
+	{
+		"id": "http://zotero.org/groups/5899098/items/B8EHUPNY",
+		"type": "book",
+		"multi": {
+			"main": {},
+			"_keys": {}
+		},
+		"note": "original-date: -431",
+		"publisher": "Oxford University Press",
+		"title": "Medea",
+		"author": [
+			{
+				"literal": "Euripides",
+				"multi": {
+					"_key": {}
+				}
+			}
+		],
+		"translator": [
+			{
+				"family": "Collier",
+				"given": "Michael",
+				"multi": {
+					"_key": {}
+				}
+			},
+			{
+				"family": "Machemer",
+				"given": "Georgia",
+				"multi": {
+					"_key": {}
+				}
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2006"
+				]
+			]
+		},
+		"seeAlso": []
+	},
+	{
+		"id": "http://zotero.org/groups/5899098/items/RMJ8JM5U",
+		"type": "book",
+		"multi": {
+			"main": {},
+			"_keys": {}
+		},
+		"abstract": "This book provides comprehensive analysis and coverage on the gamut of Canadian corporate law topics. The third volume focuses on Shareholders, Stakeholders and their Rights and Remedies.",
+		"edition": "4",
+		"ISBN": "978-0-433-52470-0",
+		"language": "en",
+		"number-of-pages": "2694",
+		"number-of-volumes": "3",
+		"publisher": "LexisNexis Canada",
+		"title": "Canadian Business Corporations Law",
+		"volume": "3",
+		"author": [
+			{
+				"family": "McGuiness",
+				"given": "Kevin Patrick",
+				"multi": {
+					"_key": {}
+				}
+			},
+			{
+				"family": "Combs",
+				"given": "Maurice",
+				"multi": {
+					"_key": {}
+				}
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2024",
+					3,
+					22
+				]
+			]
+		},
+		"seeAlso": []
+	},
+	{
+		"id": "http://zotero.org/groups/5899098/items/GCQ95SB3",
+		"type": "book",
+		"multi": {
+			"main": {},
+			"_keys": {}
+		},
+		"abstract": "This book provides comprehensive analysis and coverage on the gamut of Canadian corporate law topics. The second volume focuses on Corporate Governance.",
+		"edition": "4",
+		"ISBN": "978-0-433-52470-0",
+		"language": "en",
+		"number-of-pages": "2720",
+		"number-of-volumes": "3",
+		"publisher": "LexisNexis Canada",
+		"title": "Canadian Business Corporations Law",
+		"volume": "2",
+		"author": [
+			{
+				"family": "McGuiness",
+				"given": "Kevin Patrick",
+				"multi": {
+					"_key": {}
+				}
+			},
+			{
+				"family": "Combs",
+				"given": "Maurice",
+				"multi": {
+					"_key": {}
+				}
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2023"
+				]
+			]
+		},
+		"seeAlso": []
+	},
+	{
+		"id": "http://zotero.org/groups/5899098/items/FMPUCBXK",
+		"type": "book",
+		"multi": {
+			"main": {},
+			"_keys": {}
+		},
+		"abstract": "This book provides comprehensive analysis and coverage on the gamut of Canadian corporate law topics. The first volume focuses on General Principles.",
+		"edition": "4",
+		"ISBN": "978-0-433-52470-0",
+		"language": "en",
+		"number-of-pages": "1478",
+		"number-of-volumes": "3",
+		"publisher": "LexisNexis Canada",
+		"title": "Canadian Business Corporations Law",
+		"volume": "1",
+		"author": [
+			{
+				"family": "McGuiness",
+				"given": "Kevin Patrick",
+				"multi": {
+					"_key": {}
+				}
+			},
+			{
+				"family": "Combs",
+				"given": "Maurice",
+				"multi": {
+					"_key": {}
+				}
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2023",
+					7,
+					7
+				]
+			]
+		},
+		"seeAlso": []
+	},
+	{
+		"id": "http://zotero.org/groups/5899098/items/DMLEJQGS",
+		"type": "book",
+		"multi": {
+			"main": {},
+			"_keys": {}
+		},
+		"ISBN": "978-0-19-875452-7",
+		"publisher": "Oxford University Press",
+		"title": "Philosophical Foundations of Constitutional Law",
+		"editor": [
+			{
+				"family": "Dyzenhaus",
+				"given": "David",
+				"multi": {
+					"_key": {}
+				}
+			},
+			{
+				"family": "Thorburn",
+				"given": "Malcolm",
+				"multi": {
+					"_key": {}
+				}
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2016"
+				]
+			]
+		},
+		"seeAlso": []
+	},
+	{
+		"id": "http://zotero.org/groups/5899098/items/HQ7Z35MH",
+		"type": "book",
+		"multi": {
+			"main": {},
+			"_keys": {}
+		},
+		"medium": "loose-leaf",
+		"publisher": "Carswell",
+		"title": "Sookman: Computer, Internet, and Electronic Commerce Law",
+		"author": [
+			{
+				"family": "Sookman",
+				"given": "Barry B.",
+				"multi": {
+					"_key": {}
+				}
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2021"
+				]
+			]
+		},
+		"seeAlso": []
+	},
+	{
+		"id": "http://zotero.org/groups/5899098/items/EXXF6BR8",
+		"type": "chapter",
+		"multi": {
+			"main": {},
+			"_keys": {}
+		},
+		"container-title": "In the Public Interest: The Future of Canadian Copyright Law",
+		"language": "en",
+		"page": "251-266",
+		"publisher": "Irwin",
+		"title": "Rights Management Information",
+		"author": [
+			{
+				"family": "Perry",
+				"given": "Mark",
+				"multi": {
+					"_key": {}
+				}
+			}
+		],
+		"editor": [
+			{
+				"family": "Geist",
+				"given": "Michael",
+				"multi": {
+					"_key": {}
+				}
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2005"
+				]
+			]
+		},
+		"seeAlso": []
+	},
+	{
+		"id": "http://zotero.org/groups/5899098/items/KRGF2ZC8",
+		"type": "chapter",
+		"multi": {
+			"main": {},
+			"_keys": {}
+		},
+		"container-title": "Philosophical Foundations of Constitutional Law",
+		"ISBN": "978-0-19-875452-7",
+		"publisher": "Oxford University Press",
+		"title": "Equality Rights and Stereotypes",
+		"author": [
+			{
+				"family": "Moreau",
+				"given": "Sophia",
+				"multi": {
+					"_key": {}
+				}
+			}
+		],
+		"editor": [
+			{
+				"family": "Dyzenhaus",
+				"given": "David",
+				"multi": {
+					"_key": {}
+				}
+			},
+			{
+				"family": "Thorburn",
+				"given": "Malcolm",
+				"multi": {
+					"_key": {}
+				}
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2016"
+				]
+			]
+		},
+		"seeAlso": []
+	},
+	{
+		"id": "http://zotero.org/groups/5899098/items/YUNNDUJS",
+		"type": "article-journal",
+		"multi": {
+			"main": {},
+			"_keys": {}
+		},
+		"container-title": "Canadian Criminal Law Review",
+		"issue": "1",
+		"title": "Revisiting the Conditional Sentence of Imprisonment after 20 Years: Is Community Custody Now an Endangered Species?",
+		"volume": "24",
+		"author": [
+			{
+				"family": "Reid",
+				"given": "Andrew A.",
+				"multi": {
+					"_key": {}
+				}
+			},
+			{
+				"family": "Roberts",
+				"given": "Julian V.",
+				"multi": {
+					"_key": {}
+				}
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2019"
+				]
+			]
+		},
+		"seeAlso": []
+	},
+	{
+		"id": "http://zotero.org/groups/5899098/items/GZHB3CB6",
+		"type": "article-journal",
+		"multi": {
+			"main": {},
+			"_keys": {}
+		},
+		"container-title": "Canadian Business Law Journal",
+		"note": "case-comment:true\ncase-name:Kingstreet Investments Ltd. v New Brunswick (Department of Finance)",
+		"title": "Public Justice and Private Justice: Restitution After Kingstreet",
+		"volume": "46",
+		"author": [
+			{
+				"family": "Smith",
+				"given": "Lionel",
+				"multi": {
+					"_key": {}
+				}
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2008"
+				]
+			]
+		},
+		"seeAlso": []
+	},
+	{
+		"id": "http://zotero.org/groups/5899098/items/W4QA5FES",
+		"type": "article-journal",
+		"multi": {
+			"main": {},
+			"_keys": {}
+		},
+		"container-title": "Canadian Family Law Quarterly",
+		"note": "case-comment:true",
+		"title": "A Comment on the Application by LEAF for Intervenor Status in <i>Klachefsky v Brown</i>",
+		"volume": "4",
+		"author": [
+			{
+				"family": "Steel",
+				"given": "F. M.",
+				"multi": {
+					"_key": {}
+				}
+			},
+			{
+				"family": "Smith",
+				"given": "M. J.",
+				"multi": {
+					"_key": {}
+				}
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"1989"
+				]
+			]
+		},
+		"seeAlso": []
+	},
+	{
+		"id": "http://zotero.org/groups/5899098/items/GHCT9TCG",
+		"type": "article-journal",
+		"multi": {
+			"main": {},
+			"_keys": {}
+		},
+		"container-title": "Saskatchewan Law Review",
+		"issue": "2",
+		"title": "Case Comment on <i>Cussan v Quan</i>",
+		"volume": "72",
+		"author": [
+			{
+				"family": "Luther",
+				"given": "E",
+				"multi": {
+					"_key": {}
+				}
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2009"
+				]
+			]
+		},
+		"seeAlso": []
+	},
+	{
+		"id": "http://zotero.org/groups/5899098/items/F6XFZN85",
+		"type": "entry-dictionary",
+		"multi": {
+			"main": {},
+			"_keys": {}
+		},
+		"container-title": "Black's Law Dictionary",
+		"edition": "10",
+		"publisher": "Thomson Reuters",
+		"title": "restitution",
+		"editor": [
+			{
+				"family": "Garner",
+				"given": "Bryan A",
+				"multi": {
+					"_key": {}
+				}
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2014"
+				]
+			]
+		},
+		"seeAlso": []
+	},
+	{
+		"id": "http://zotero.org/groups/5899098/items/WHIPHC6Z",
+		"type": "entry-dictionary",
+		"multi": {
+			"main": {},
+			"_keys": {}
+		},
+		"container-title": "Canadian Online Legal Dictionary",
+		"publisher": "Irwin Law",
+		"title": "curative proviso",
+		"issued": {
+			"date-parts": [
+				[
+					"2024"
+				]
+			]
+		},
+		"seeAlso": []
+	},
+	{
+		"id": "http://zotero.org/groups/5899098/items/9AYVFXY7",
+		"type": "entry-encyclopedia",
+		"multi": {
+			"main": {},
+			"_keys": {}
+		},
+		"title": "Agricultural Societies and Cooperatives Rights and Duties",
+		"seeAlso": []
+	},
+	{
+		"id": "http://zotero.org/groups/5899098/items/QSF2GGER",
+		"type": "post-weblog",
+		"multi": {
+			"main": {},
+			"_keys": {}
+		},
+		"title": "Construction Contracts in Alberta: Understanding the Cost Implications of Prime Cost Sums and Cash Allowance Clauses",
+		"URL": "https://www.mross.com",
+		"author": [
+			{
+				"family": "McGarvey",
+				"given": "D",
+				"multi": {
+					"_key": {}
+				}
+			},
+			{
+				"family": "White",
+				"given": "G",
+				"multi": {
+					"_key": {}
+				}
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2023",
+					11,
+					21
+				]
+			]
+		},
+		"seeAlso": []
+	},
+	{
+		"id": "http://zotero.org/groups/5899098/items/D332R6RZ",
+		"type": "post-weblog",
+		"multi": {
+			"main": {},
+			"_keys": {}
+		},
+		"note": "archive-url:https://web.archive.org/web/20240313202606/https://corporate.sobeys.com",
+		"title": "About Sobeys Inc.",
+		"URL": "https://corporate.sobeys.com",
+		"author": [
+			{
+				"literal": "Sobeys",
+				"multi": {
+					"_key": {}
+				}
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2023"
+				]
+			]
+		},
+		"seeAlso": []
+	},
+	{
+		"id": "http://zotero.org/groups/5899098/items/CST2JABQ",
+		"type": "post-weblog",
+		"multi": {
+			"main": {},
+			"_keys": {}
+		},
+		"note": "modification-date:true",
+		"title": "Pet Agreement for Alberta Renters",
+		"URL": "https://www.cplea.ca/wp-content/uploads/PetAgreementFillable.pdf",
+		"author": [
+			{
+				"literal": "CPLEA",
+				"multi": {
+					"_key": {}
+				}
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2020"
+				]
+			]
+		},
+		"seeAlso": []
+	},
+	{
+		"id": "http://zotero.org/groups/5899098/items/6ELJGQYC",
+		"type": "post-weblog",
+		"multi": {
+			"main": {},
+			"_keys": {}
+		},
+		"title": "Consultancy",
+		"URL": "https://www.dementiavillage.com/consultancy",
+		"author": [
+			{
+				"literal": "Dementia Village Associates",
+				"multi": {
+					"_key": {}
+				}
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2024",
+					4,
+					23
+				]
+			]
+		},
+		"seeAlso": []
+	},
+	{
+		"id": "http://zotero.org/groups/5899098/items/YK2J7WFI",
+		"type": "article-newspaper",
+		"multi": {
+			"main": {},
+			"_keys": {}
+		},
+		"container-title": "The Globe and Mail",
+		"page": "4",
+		"section": "B",
+		"title": "Chief Risk Officers Are in the Hot Seat",
+		"author": [
+			{
+				"family": "Trichur",
+				"given": "Rita",
+				"multi": {
+					"_key": {}
+				}
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2023",
+					10,
+					27
+				]
+			]
+		},
+		"seeAlso": []
+	},
+	{
+		"id": "http://zotero.org/groups/5899098/items/GXPR27MM",
+		"type": "article-newspaper",
+		"multi": {
+			"main": {},
+			"_keys": {}
+		},
+		"container-title": "CBC News",
+		"title": "Humans want to mine the moon. Here’s what space law experts say the rules are",
+		"URL": "https://www.cbc.ca/news/science/moon-mining-outer-space-treaty-1.6568648",
+		"author": [
+			{
+				"family": "Bernstien",
+				"given": "J",
+				"multi": {
+					"_key": {}
+				}
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2022",
+					9,
+					1
+				]
+			]
+		},
+		"seeAlso": []
+	},
+	{
+		"id": "http://zotero.org/groups/5899098/items/MT3WLDEI",
+		"type": "video",
+		"multi": {
+			"main": {},
+			"_keys": {}
+		},
+		"title": "The Levels of Government",
+		"URL": "https://www.youtube.com/watch?v=7C8uDuhLqvg",
+		"director": [
+			{
+				"literal": "Student Vote",
+				"multi": {
+					"_key": {}
+				}
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2015",
+					9,
+					22
+				]
+			]
+		},
+		"seeAlso": []
+	},
+	{
+		"id": "http://zotero.org/groups/5899098/items/2VMFHNUI",
+		"type": "hearing",
+		"multi": {
+			"main": {},
+			"_keys": {}
+		},
+		"authority": "Legislative Assembly",
+		"chapter-number": "2",
+		"collection-number": "28",
+		"issue": "24",
+		"language": "en",
+		"title": "Hansard",
+		"jurisdiction": "ca:ab",
+		"issued": {
+			"date-parts": [
+				[
+					"2014",
+					5,
+					5
+				]
+			]
+		},
+		"seeAlso": []
+	},
+	{
+		"id": "http://zotero.org/groups/5899098/items/TIGXCLQL",
+		"type": "hearing",
+		"multi": {
+			"main": {},
+			"_keys": {}
+		},
+		"authority": "Legislative Assembly",
+		"chapter-number": "1",
+		"collection-number": "39",
+		"issue": "2",
+		"note": "body_in_title:true",
+		"title": "Official Report of Debates of the Legislative Assembly (Hansard)",
+		"volume": "9",
+		"jurisdiction": "ca:bc",
+		"author": [
+			{
+				"family": "Falcon",
+				"given": "K",
+				"multi": {
+					"_key": {}
+				}
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2009",
+					11,
+					23
+				]
+			]
+		},
+		"seeAlso": []
+	},
+	{
+		"id": "http://zotero.org/groups/5899098/items/KXMSEDZY",
+		"type": "hearing",
+		"multi": {
+			"main": {},
+			"_keys": {}
+		},
+		"authority": "Legislative Assembly",
+		"chapter-number": "3",
+		"collection-number": "55",
+		"title": "Journals",
+		"volume": "23",
+		"jurisdiction": "ca:nb",
+		"issued": {
+			"date-parts": [
+				[
+					"2006",
+					4,
+					13
+				]
+			]
+		},
+		"seeAlso": []
+	},
+	{
+		"id": "http://zotero.org/groups/5899098/items/ITAGLNKB",
+		"type": "hearing",
+		"multi": {
+			"main": {},
+			"_keys": {}
+		},
+		"authority": "House of Commons",
+		"chapter-number": "1",
+		"collection-number": "35",
+		"issue": "6",
+		"title": "Minutes of Proceedings and Evidence",
+		"jurisdiction": "ca",
+		"committee": "Standing Committee on Justice and Legal Affairs",
+		"issued": {
+			"date-parts": [
+				[
+					"1994",
+					4,
+					13
+				]
+			]
+		},
+		"seeAlso": []
+	},
+	{
+		"id": "http://zotero.org/groups/5899098/items/7VG3QAVL",
+		"type": "hearing",
+		"multi": {
+			"main": {},
+			"_keys": {}
+		},
+		"authority": "House of Commons",
+		"chapter-number": "1",
+		"collection-number": "42",
+		"issue": "40",
+		"note": "chair:true",
+		"title": "We Can Do Better: Housing in Inuit Nunangat",
+		"jurisdiction": "ca",
+		"committee": "Standing Committee on Aboriginal Peoples",
+		"author": [
+			{
+				"family": "Dyck",
+				"given": "L.E.",
+				"multi": {
+					"_key": {}
+				}
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2017",
+					3,
+					1
+				]
+			]
+		},
+		"seeAlso": []
+	},
+	{
+		"id": "http://zotero.org/groups/5899098/items/TEX6LH5J",
+		"type": "hearing",
+		"multi": {
+			"main": {},
+			"_keys": {}
+		},
+		"authority": "House of Commons",
+		"chapter-number": "1",
+		"collection-number": "32",
+		"issue": "40",
+		"note": "publication-date:1983-10-20",
+		"title": "Indian Self-Government in Canada: Report of the Special Committee",
+		"jurisdiction": "ca",
+		"committee": "Special Committee on Indian Self-Government",
+		"author": [
+			{
+				"family": "Penner",
+				"given": "K",
+				"multi": {
+					"_key": {}
+				}
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"1983",
+					12,
+					10
+				]
+			]
+		},
+		"seeAlso": []
+	},
+	{
+		"id": "http://zotero.org/groups/5899098/items/5Z66K8CI",
+		"type": "report",
+		"multi": {
+			"main": {},
+			"_keys": {}
+		},
+		"authority": "Ministry of Finance and Corporate Relations",
+		"title": "1993-1994 Annual Report",
+		"jurisdiction": "ca:bc",
+		"issued": {
+			"date-parts": [
+				[
+					"1995"
+				]
+			]
+		},
+		"seeAlso": []
+	},
+	{
+		"id": "http://zotero.org/groups/5899098/items/QV9GPD44",
+		"type": "report",
+		"multi": {
+			"main": {},
+			"_keys": {}
+		},
+		"authority": "Royal Commission on Aboriginal Peoples",
+		"note": "other-relevant-information:Vol 5",
+		"publisher": "Canada Communication Group",
+		"title": "Renewal: A Twenty-Year Commitment",
+		"jurisdiction": "ca",
+		"issued": {
+			"date-parts": [
+				[
+					"1996"
+				]
+			]
+		},
+		"seeAlso": []
+	},
+	{
+		"id": "http://zotero.org/groups/5899098/items/QGRBWZ6W",
+		"type": "report",
+		"multi": {
+			"main": {},
+			"_keys": {}
+		},
+		"authority": "Task Force on Canadian Unity",
+		"publisher": "Minister of Supply and Services",
+		"title": "A Time to Speak: The Views of the Public",
+		"jurisdiction": "ca",
+		"issued": {
+			"date-parts": [
+				[
+					"1979"
+				]
+			]
+		},
+		"seeAlso": []
+	},
+	{
+		"id": "http://zotero.org/groups/5899098/items/G6ZNTE6M",
+		"type": "report",
+		"multi": {
+			"main": {},
+			"_keys": {}
+		},
+		"authority": "National Research Council of Canada",
+		"note": "supress-jurisdiction:true",
+		"title": "Laying the Foundations for Tomorrow’s Innovations: 2022-2023 Annual Report",
+		"issued": {
+			"date-parts": [
+				[
+					"2023"
+				]
+			]
+		},
+		"seeAlso": []
+	},
+	{
+		"id": "http://zotero.org/groups/5899098/items/KTA59STZ",
+		"type": "report",
+		"multi": {
+			"main": {},
+			"_keys": {}
+		},
+		"authority": "Finance and Treasury Board",
+		"title": "Small Business Investor Tax Credit Program",
+		"URL": "https://www2.gnb.ca/content/gnb/en/departments/finance/taxes/credit/program.html",
+		"jurisdiction": "ca:nb",
+		"accessed": {
+			"date-parts": [
+				[
+					"2023",
+					7,
+					5
+				]
+			]
+		},
+		"seeAlso": []
+	},
+	{
+		"id": "http://zotero.org/groups/5899098/items/UHMZLMIP",
+		"type": "report",
+		"multi": {
+			"main": {},
+			"_keys": {}
+		},
+		"authority": "Health Canada",
+		"note": "supress-jurisdiction:true",
+		"title": "Climate Change, Wildfires and Canadians' Health",
+		"jurisdiction": "ca",
+		"issued": {
+			"date-parts": [
+				[
+					"2022"
+				]
+			]
+		},
+		"seeAlso": []
+	},
+	{
+		"id": "http://zotero.org/groups/5899098/items/FMHJLNFY",
+		"type": "report",
+		"multi": {
+			"main": {},
+			"_keys": {}
+		},
+		"authority": "Statistics Canada",
+		"note": "other-relevant-information:Catalogue No 97-558-XIE",
+		"title": "Aboriginal Peoples in Canada in 2006: Inuit, Métis and First Nations, 2006 Census",
+		"issued": {
+			"date-parts": [
+				[
+					"2008"
+				]
+			]
+		},
+		"seeAlso": []
+	},
+	{
+		"id": "http://zotero.org/groups/5899098/items/P2LT9WRT",
+		"type": "report",
+		"multi": {
+			"main": {},
+			"_keys": {}
+		},
+		"authority": "Canada Revenue Agency",
+		"genre": "Guide",
+		"note": "tax-doc:true",
+		"number": "T4002(E) Rev 22",
+		"title": "Self-employed Business, Professional, Commission, Farming, and Fishing Income",
+		"issued": {
+			"date-parts": [
+				[
+					"2022"
+				]
+			]
+		},
+		"seeAlso": []
+	},
+	{
+		"id": "http://zotero.org/groups/5899098/items/ETCMEMW9",
+		"type": "legislation",
+		"multi": {
+			"main": {},
+			"_keys": {
+				"container-title": {
+					"fr": "LRC"
+				},
+				"title": {
+					"fr": "Loi sur le droit d'auteur"
+				}
+			}
+		},
+		"container-title": "RSC",
+		"language": "en",
+		"title": "Copyright Act",
+		"URL": "https://canlii.ca/t/56dbv",
+		"volume": "C-42",
+		"jurisdiction": "ca",
+		"accessed": {
+			"date-parts": [
+				[
+					"2024",
+					12,
+					29
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"1985"
+				]
+			]
+		},
+		"seeAlso": []
+	},
+	{
+		"id": "http://zotero.org/groups/5899098/items/A5AJNFLB",
+		"type": "legislation",
+		"multi": {
+			"main": {},
+			"_keys": {
+				"container-title": {
+					"fr": "LRC"
+				},
+				"title": {
+					"fr": "Loi sur la généalogie des animaux"
+				}
+			}
+		},
+		"container-title": "RSC",
+		"language": "en",
+		"number": "4",
+		"title": "Animal Pedigree Act",
+		"URL": "https://canlii.ca/t/hz2v",
+		"volume": "8",
+		"jurisdiction": "ca",
+		"accessed": {
+			"date-parts": [
+				[
+					"2025",
+					1,
+					16
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"1985"
+				]
+			]
+		},
+		"seeAlso": []
+	},
+	{
+		"id": "http://zotero.org/groups/5899098/items/EZQ3NZUL",
+		"type": "legislation",
+		"multi": {
+			"main": {},
+			"_keys": {}
+		},
+		"chapter-number": "2",
+		"container-title": "SBC",
+		"title": "Human Rights Code of British Columbia Act",
+		"volume": "119",
+		"jurisdiction": "ca",
+		"issued": {
+			"date-parts": [
+				[
+					"1973"
+				]
+			]
+		},
+		"seeAlso": []
+	},
+	{
+		"id": "http://zotero.org/groups/5899098/items/YGBYUGUZ",
+		"type": "legislation",
+		"multi": {
+			"main": {},
+			"_keys": {
+				"container-title": {
+					"fr": "LO"
+				},
+				"title": {
+					"fr": "Loi de 2012 sur l'autoroute 407 Est"
+				}
+			}
+		},
+		"container-title": "SO",
+		"language": "en",
+		"note": "schedule:true",
+		"section": "22",
+		"title": "Highway 407 East Act, 2012",
+		"URL": "https://canlii.ca/t/5618j",
+		"volume": "8",
+		"jurisdiction": "ca:on",
+		"accessed": {
+			"date-parts": [
+				[
+					"2025",
+					1,
+					31
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"2012"
+				]
+			]
+		},
+		"seeAlso": []
+	},
+	{
+		"id": "http://zotero.org/groups/5899098/items/9CDMR4VG",
+		"type": "legislation",
+		"multi": {
+			"main": {},
+			"_keys": {}
+		},
+		"container-title": "SO",
+		"title": "Strong Action for Ontario Act (Budget Measures), 2012",
+		"volume": "8",
+		"jurisdiction": "ca",
+		"issued": {
+			"date-parts": [
+				[
+					"2012"
+				]
+			]
+		},
+		"seeAlso": []
+	},
+	{
+		"id": "http://zotero.org/groups/5899098/items/2SSJDITC",
+		"type": "bill",
+		"multi": {
+			"main": {},
+			"_keys": {}
+		},
+		"chapter-number": "3",
+		"collection-number": "27",
+		"number": "22",
+		"title": "Family Law Statutes Amendment Act, 2010",
+		"jurisdiction": "ca:ab",
+		"issued": {
+			"date-parts": [
+				[
+					"2010"
+				]
+			]
+		},
+		"seeAlso": []
+	},
+	{
+		"id": "http://zotero.org/groups/5899098/items/MHA8HGN2",
+		"type": "bill",
+		"multi": {
+			"main": {},
+			"_keys": {}
+		},
+		"chapter-number": "4",
+		"collection-number": "39",
+		"container-title": "SBC 2012",
+		"note": "other-relevant-information:assented to 31 May 2012",
+		"number": "53",
+		"title": "Family Day Act",
+		"volume": "24",
+		"jurisdiction": "ca:bc",
+		"issued": {
+			"date-parts": [
+				[
+					"2012"
+				]
+			]
+		},
+		"seeAlso": []
+	},
+	{
+		"id": "http://zotero.org/groups/5899098/items/B2TCL2EP",
+		"type": "regulation",
+		"multi": {
+			"main": {},
+			"_keys": {}
+		},
+		"container-title": "CRC",
+		"title": "National Parks Signs Regulations",
+		"volume": "1130",
+		"jurisdiction": "ca",
+		"seeAlso": []
+	},
+	{
+		"id": "http://zotero.org/groups/5899098/items/EA9BT7KZ",
+		"type": "regulation",
+		"multi": {
+			"main": {},
+			"_keys": {}
+		},
+		"container-title": "SOR/2002-156",
+		"title": "Rules of the Supreme Court of Canada",
+		"jurisdiction": "ca",
+		"seeAlso": []
+	},
+	{
+		"id": "http://zotero.org/groups/5899098/items/LL32NJNZ",
+		"type": "regulation",
+		"multi": {
+			"main": {},
+			"_keys": {}
+		},
+		"container-title": "SI/2023-55",
+		"note": "supress-jurisdiction:true",
+		"title": "Order Fixing September 1, 2023 as the Day the Self-Government Treaty Recognizing the Whitecap Dakota Nation / Wapaha Ska Dakota Oyate Act Comes into Force",
+		"jurisdiction": "ca",
+		"seeAlso": []
+	},
+	{
+		"id": "http://zotero.org/groups/5899098/items/VCTTNRHT",
+		"type": "regulation",
+		"multi": {
+			"main": {},
+			"_keys": {}
+		},
+		"container-title": "OIC 332/2017",
+		"note": "add-jurisdiction:true",
+		"jurisdiction": "ca:on",
+		"seeAlso": []
+	},
+	{
+		"id": "http://zotero.org/groups/5899098/items/BCWN2ZY9",
+		"type": "legal_case",
+		"multi": {
+			"main": {},
+			"_keys": {
+				"title": {
+					"fr": "R c Jordan"
+				}
+			}
+		},
+		"authority": "court.kings.bench",
+		"collection-number": "2016",
+		"number": "36068",
+		"title": "R v Jordan",
+		"URL": "https://canlii.ca/t/gsds3",
+		"document-number": "27",
+		"jurisdiction": "ca:ab",
+		"accessed": {
+			"date-parts": [
+				[
+					"2025",
+					2,
+					4
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"2016",
+					8,
+					7
+				]
+			]
+		},
+		"seeAlso": []
+	}
+]

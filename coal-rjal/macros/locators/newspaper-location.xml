@@ -1,0 +1,4 @@
+<macro name="newspaper-locator">
+    <text variable="section" />
+    <text variable="page" />
+</macro>

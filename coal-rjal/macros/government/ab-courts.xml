@@ -1,0 +1,10 @@
+<macro name="ab-courts">
+    <choose>
+        <if court="nan">
+            <text term="abca" />
+        </if>
+        <else>
+            <text value="ok"/>
+        </else>
+    </choose>
+</macro>

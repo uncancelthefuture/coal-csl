@@ -1,0 +1,52 @@
+<macro name="legislation-number">
+    <group delimiter=" ">
+        <number variable="collection-number" form="ordinal" />
+        <choose>
+            <if jurisdiction="ca:ab">
+                <text term="leg" form="short" />
+            </if>
+            <else-if jurisdiction="ca:sk">
+                <text term="leg" form="short" />
+            </else-if>
+            <else-if jurisdiction="ca:nb">
+                <text term="leg" form="short" />
+            </else-if>
+            <else-if jurisdiction="ca:mb">
+                <text term="leg" form="short" />
+            </else-if>
+            <else-if jurisdiction="ca:yk">
+                <text term="leg" form="short" />
+            </else-if>
+            <else-if jurisdiction="ca:qc">
+                <text term="leg" form="short" />
+            </else-if>
+            <else-if jurisdiction="ca:nl">
+                <text term="gen-ass" form="short" />
+            </else-if>
+            <else-if jurisdiction="ca:ns">
+                <text term="gen-ass" form="short" />
+            </else-if>
+            <else-if jurisdiction="ca:pe">
+                <text term="gen-ass" form="short" />
+            </else-if>
+            <else-if jurisdiction="ca:nw">
+                <text term="ass" form="short" />
+            </else-if>
+            <else-if jurisdiction="ca:nu">
+                <text term="ass" form="short" />
+            </else-if>
+            <else-if jurisdiction="ca:on">
+                <text term="parl" form="short" />
+            </else-if>
+            <else-if jurisdiction="ca:bc">
+                <text term="parl" form="short" />
+            </else-if>
+            <else-if jurisdiction="ca">
+                <text term="parl" form="short" />
+            </else-if>
+            <else>
+                <text term="leg" form="short" />
+            </else>
+        </choose>
+    </group>
+</macro>

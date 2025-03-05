@@ -1,0 +1,3 @@
+<macro name="quoted-title">
+ <text quotes="true" variable="title" />
+</macro>

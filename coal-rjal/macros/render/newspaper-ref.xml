@@ -1,0 +1,12 @@
+<macro name="newspaper-ref">
+    <group delimiter=" ">
+        <text macro="author" suffix=", "/>
+        <text macro="quoted-title" />
+        <text macro="container-title" />
+        <text macro="full-date" />
+        <text macro="newspaper-locator" />
+        <text macro="URL" />
+        <text macro="access-and-or-archive"/>
+        <text macro="pinpoint"/>
+    </group>
+</macro>

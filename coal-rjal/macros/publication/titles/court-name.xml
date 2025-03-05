@@ -1,0 +1,43 @@
+<macro name="court-name">
+	<choose>
+		<if jurisdiction="ca">
+			<choose>
+				<if authority="supreme.court">
+					<text term="SCC"/>
+				</if>
+				<else-if authority="appeal.court">
+					<text term="FCA"/>
+				</else-if>
+				<else-if>
+					<text term="FC"/>
+				</else-if>
+			</choose>
+		</if>
+	</choose>
+</macro>
+
+"authority": "supreme.court",
+		"collection-number": "2016",
+		"number": "36068",
+		"title": "R. v. Jordan",
+		"URL": "https://canlii.ca/t/gsds3",
+		"document-number": "27",
+		"jurisdiction": "ca",
+		"accessed": {
+			"date-parts": [
+				[
+					"2025",
+					2,
+					4
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"2016",
+					8,
+					7
+				]
+			]
+		},

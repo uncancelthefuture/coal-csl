@@ -1,0 +1,6 @@
+<macro name="session-number">
+    <group delimiter=" ">
+        <number variable="chapter-number" form="ordinal" />
+        <text term="sess" form="short"/>
+    </group>
+</macro>

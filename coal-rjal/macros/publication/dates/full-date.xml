@@ -1,0 +1,6 @@
+<macro name="full-date">
+    <group prefix="(" suffix=")" delimiter=", ">
+        <date variable="issued" form="text"/>
+        <date variable="publication-date" form="text"/>
+    </group>
+</macro>

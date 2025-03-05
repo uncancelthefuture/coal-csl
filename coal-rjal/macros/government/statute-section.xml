@@ -1,0 +1,13 @@
+<macro name="statute-section">
+    <group delimiter=" ">
+        <choose>
+            <if variable="schedule">
+                <text term="schedule" form="long"/>
+            </if>
+            <else>
+                <text term="section" form="short"/>
+            </else>
+        </choose>
+        <text variable="section"/>
+    </group>
+</macro>

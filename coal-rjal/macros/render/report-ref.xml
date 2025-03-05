@@ -1,0 +1,32 @@
+<macro name="report-ref">
+    <choose>
+        <if variable="tax-doc">
+            <text macro="tax-doc-ref" />
+        </if>
+        <else>
+            <group delimiter=" ">
+                <text macro="jurisdiction" suffix="," />
+                <choose>
+                    <if variable="body_in_title" />
+                    <else>
+                        <text variable="authority" suffix="," />
+                    </else>
+                </choose>
+                <text variable="committee" suffix="," />
+                <group>
+                    <text macro="book-title" />
+                    <text variable="other-relevant-information" prefix=", " />
+                </group>
+                <text macro="parl-publication" />
+                <group delimiter=", " prefix="(" suffix=")">
+                    <text variable="publisher" />
+                    <text macro="year-issued" />
+                </group>
+
+            </group>
+            <text variable="URL" prefix=", " />
+            <text macro="access-and-or-archive" prefix=" " />
+        </else>
+    </choose>
+    <text macro="pinpoint" prefix=" " />
+</macro>

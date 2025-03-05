@@ -1,0 +1,14 @@
+<macro name="book-ref">
+ <group delimiter=" ">
+  <text macro="author" suffix=","/>
+  <text macro="editor"/>
+  <group>
+   <text macro="book-title"/>
+   <text macro="edition" prefix=", "/>
+   <text macro="translator" prefix=", "/>
+  </group>
+  <text macro="book-publication-info"/>
+  <text macro="pinpoint">
+  </text>
+ </group>
+</macro>

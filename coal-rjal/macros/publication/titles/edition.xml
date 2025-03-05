@@ -1,0 +1,8 @@
+<macro name="edition">
+ <group delimiter=" ">
+  <number form="ordinal" variable="edition">
+  </number>
+  <label form="short" variable="edition">
+  </label>
+ </group>
+</macro>

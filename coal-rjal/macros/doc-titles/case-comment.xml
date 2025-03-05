@@ -1,0 +1,16 @@
+<macro name="case-comment">
+    <choose>
+        <if variable="case-comment">
+            <group delimiter=" ">
+                <text term="case" />
+                <text term="comment" />
+                <choose>
+                    <if variable="case-name">
+                        <text term="on" />
+                        <text variable="case-name" font-style="italic" />
+                    </if>
+                </choose>
+            </group>
+        </if>
+    </choose>
+</macro>

@@ -1,0 +1,10 @@
+<macro name="website-ref">
+    <group delimiter=" ">
+        <text macro="author" suffix="," />
+        <text macro="quoted-title" />
+        <text macro="date-modified" />
+        <text variable="URL" />
+        <text macro="access-and-or-archive"/>
+        <text macro="pinpoint" />
+    </group>
+</macro>

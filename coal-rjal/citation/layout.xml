@@ -1,0 +1,43 @@
+<layout suffix=".">
+    <choose>
+        <if type="book">
+            <text macro="book-ref" />
+        </if>
+        <else-if type="chapter">
+            <text macro="chapter-ref" />
+        </else-if>
+        <else-if type="article-journal">
+            <text macro= "journal-ref" />
+        </else-if>
+        <else-if type="entry-dictionary">
+            <text macro="dictionary-ref" />
+        </else-if>
+        <else-if type="post-weblog">
+            <text macro="website-ref" />
+        </else-if>
+        <else-if type="article-newspaper">
+            <text macro="newspaper-ref" />
+        </else-if>
+        <else-if type="motion_picture video">
+            <text macro="video-ref" />
+        </else-if>
+        <else-if type="hearing">
+            <text macro="hearing-ref" />
+        </else-if>
+        <else-if type="report">
+            <text macro="report-ref"/>
+        </else-if>
+        <else-if type="legislation">
+            <text macro="statute-ref"/>
+        </else-if>
+        <else-if type="bill">
+            <text macro="bill-ref"/>
+        </else-if>
+        <else-if type="regulation">
+            <text macro="regulation-ref"/>
+        </else-if>
+        <else-if type="legal_case">
+            <text macro="case-ref"/>
+        </else-if>
+    </choose>
+</layout>

@@ -1,0 +1,6 @@
+<macro name="volume-issue">
+    <group delimiter=":">
+        <text variable="volume" />
+        <text variable="issue" />
+    </group>
+</macro>

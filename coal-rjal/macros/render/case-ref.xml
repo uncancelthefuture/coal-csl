@@ -1,0 +1,6 @@
+<macro name="case-ref">
+    <group delimiter=", ">
+        <text macro="book-title"/>
+		<text macro="neutral-citation"/>
+    </group>
+</macro>

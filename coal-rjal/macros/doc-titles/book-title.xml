@@ -1,0 +1,3 @@
+<macro name="book-title">
+ <text font-style="italic" variable="title"/>
+</macro>

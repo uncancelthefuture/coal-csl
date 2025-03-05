@@ -1,0 +1,22 @@
+<macro name="statute-ref">
+    <choose>
+        <if variable="section">
+            <text macro="in-statute-ref" />
+        </if>
+        <else>
+            <group delimiter=", ">
+                <text macro="book-title" />
+                <group delimiter=" ">
+                    <text variable="container-title" />
+                    <text macro="year-issued" />
+                    <text macro="session-number" prefix="(" suffix=")" />
+                </group>
+                <group delimiter=" ">
+                    <text macro="statute-chapter" />
+                    <text macro="supplement-no" />
+                    <text macro="pinpoint" />
+                </group>
+            </group>
+        </else>
+    </choose>
+</macro>

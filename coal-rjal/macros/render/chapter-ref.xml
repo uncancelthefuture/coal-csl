@@ -1,0 +1,22 @@
+<macro name="chapter-ref">
+ <group delimiter=" ">
+  <text macro="author" suffix=",">
+  </text>
+  <text macro="quoted-title" suffix=" in">
+  </text>
+  <text macro="editor">
+  </text>
+  <group>
+   <text macro="container-title">
+   </text>
+   <text macro="edition" prefix=", ">
+   </text>
+   <text macro="translator" prefix=", ">
+   </text>
+  </group>
+  <text macro="book-publication-info">
+  </text>
+  <text macro="pinpoint">
+  </text>
+ </group>
+</macro>

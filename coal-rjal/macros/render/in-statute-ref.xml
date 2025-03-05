@@ -1,0 +1,16 @@
+<macro name="in-statute-ref">
+    <group delimiter=", ">
+        <group delimiter=" ">
+            <text macro="book-title" />
+            <text macro="pinpoint" />
+        </group>
+        <group delimiter=" ">
+            <text term="contained-in"/>
+            <text variable="container-title"/>
+            <text macro="year-issued"/>
+            <text macro="session-number" prefix="(" suffix=")"/>
+        </group>
+        <text macro="statute-chapter"/>
+        <text  macro="statute-section"/>
+    </group>
+</macro>

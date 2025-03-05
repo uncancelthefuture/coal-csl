@@ -1,0 +1,4 @@
+<macro name="year-original">
+ <date date-parts="year" form="text" variable="original-date">
+ </date>
+</macro>

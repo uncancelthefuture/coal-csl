@@ -1,0 +1,3 @@
+<macro name="dictionary-entry">
+    <text variable="title" quotes="true" punctuation-in-quote="false" />
+</macro>

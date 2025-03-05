@@ -1,0 +1,3 @@
+<macro name="container-title">
+ <text font-style="italic" variable="container-title" />
+</macro>

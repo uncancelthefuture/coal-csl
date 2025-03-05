@@ -1,0 +1,6 @@
+<macro name="access-date">
+    <group delimiter=" ">
+        <text term="accessed" />
+        <date form="text" variable="accessed" />
+    </group>
+</macro>

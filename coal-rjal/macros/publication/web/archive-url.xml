@@ -1,0 +1,11 @@
+<macro name="archive-url">
+    <choose>
+        <if variable="archive-url">
+            <group delimiter=" ">
+                <text term="archived" />
+                <text term="at" />
+                <text variable="archive-url" />
+            </group>
+        </if>
+    </choose>
+</macro>

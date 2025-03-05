@@ -1,0 +1,12 @@
+<macro name="journal-year">
+ <choose>
+  <if variable="issued">
+   <date date-parts="year" form="text" variable="issued" prefix="(" suffix=")">
+   </date>
+  </if>
+  <else>
+   <text term="no date">
+   </text>
+  </else>
+ </choose>
+</macro>

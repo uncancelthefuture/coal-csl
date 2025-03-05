@@ -1,0 +1,12 @@
+<macro name="book-publication-info">
+ <group delimiter=", " prefix="(" suffix=")">
+  <text variable="publisher">
+  </text>
+  <group delimiter="/">
+   <text macro="year-issued">
+   </text>
+   <text macro="year-original">
+   </text>
+  </group>
+ </group>
+</macro>

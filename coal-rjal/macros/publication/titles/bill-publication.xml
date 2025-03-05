@@ -1,0 +1,6 @@
+<macro name="bill-publication">
+    <group delimiter=", ">
+        <text macro="session-number"/>
+        <text macro="legislation-number"/>
+    </group>
+</macro>

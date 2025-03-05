@@ -1,0 +1,6 @@
+<macro name="statute-chapter">
+    <group delimiter=" ">
+        <text term="statute-chapter-term" form="short" />
+        <text variable="volume" />
+    </group>
+</macro>

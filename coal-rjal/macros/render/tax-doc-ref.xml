@@ -1,0 +1,14 @@
+<macro name="tax-doc-ref">
+    <group delimiter=", ">
+        <text variable="authority"/>
+        <group delimiter=" ">
+            <text variable="genre" />
+            <text variable="number" />
+        </group>
+        <group delimiter=" ">
+            <text macro="book-title" quotes="true" />
+            <text macro="year-issued" prefix="(" suffix=")" />
+        </group>
+    </group>
+    <text macro="pinpoint" prefix=" " />
+</macro>

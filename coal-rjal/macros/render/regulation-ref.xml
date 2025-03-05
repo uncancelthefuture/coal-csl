@@ -1,0 +1,15 @@
+<macro name="regulation-ref">
+    <group delimiter=", ">
+        <text macro="book-title"/>
+        <group delimiter=" ">
+            <text variable="container-title"/>
+            <choose>
+                <if variable="add-jurisdiction">
+                    <text macro="jurisdiction-short" prefix="(" suffix=")"/>
+                </if>
+            </choose>
+        </group>
+        <text macro="statute-chapter"/>
+    </group>
+    <text macro="pinpoint" prefix=" "/>
+ </macro>

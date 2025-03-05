@@ -1,0 +1,54 @@
+<macro name="jurisdiction-short">
+    <choose>
+        <if variable="supress-jurisdiction" />
+        <else>
+            <choose>
+                <if jurisdiction="ca:ab">
+                    <text term="ca:ab" form="short"/>
+                </if>
+                <else-if jurisdiction="ca:bc">
+                    <text term="ca:bc" form="short"/>
+                </else-if>
+                <else-if jurisdiction="ca:mb">
+                    <text term="ca:mb" form="short"/>
+                </else-if>
+                <else-if jurisdiction="ca:nb">
+                    <text term="ca:nb" form="short"/>
+                </else-if>
+                <else-if jurisdiction="ca:nl">
+                    <text term="ca:nl" form="short"/>
+                </else-if>
+                <else-if jurisdiction="ca:nt">
+                    <text term="ca:nt" form="short"/>
+                </else-if>
+                <else-if jurisdiction="ca:ns">
+                    <text term="ca:ns" form="short"/>
+                </else-if>
+                <else-if jurisdiction="ca:nu">
+                    <text term="ca:nu" form="short"/>
+                </else-if>
+                <else-if jurisdiction="ca:on">
+                    <text term="ca:on" form="short"/>
+                </else-if>
+                <else-if jurisdiction="ca:pe">
+                    <text term="ca:pe" form="short"/>
+                </else-if>
+                <else-if jurisdiction="ca:qc">
+                    <text term="ca:qc" form="short"/>
+                </else-if>
+                <else-if jurisdiction="ca:sk">
+                    <text term="ca:sk" form="short"/>
+                </else-if>
+                <else-if jurisdiction="ca:yk">
+                    <text term="ca:yk" form="short"/>
+                </else-if>
+                <else-if jurisdiction="ca">
+                    <text term="ca" form="short"/>
+                </else-if>
+                <else>
+                    <text variable="jurisdiction" />
+                </else>
+            </choose>
+        </else>
+    </choose>
+</macro>

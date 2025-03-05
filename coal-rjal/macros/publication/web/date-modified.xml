@@ -1,0 +1,13 @@
+<macro name="date-modified">
+    <group delimiter=" " prefix="(" suffix=")">
+        <choose>
+            <if variable="modification-date">
+                <text term="modified" />
+                <text macro="year-issued" />
+            </if>
+            <else>
+                <text macro="year-issued" />
+            </else>
+        </choose>
+    </group>
+</macro>

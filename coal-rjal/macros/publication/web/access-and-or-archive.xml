@@ -1,0 +1,16 @@
+<macro name="access-and-or-archive">
+    <choose>
+        <if variable="archive-url">
+            <group prefix="(" suffix=")" delimiter=", ">
+                <text macro="access-date" />
+                <text macro="archive-url" />
+            </group>
+        </if>
+        <else-if variable="accessed">
+            <group prefix="(" suffix=")" delimiter=", ">
+                <text macro="access-date" />
+                <text macro="archive-url" prefix="," />
+            </group>
+        </else-if>
+    </choose>
+</macro>

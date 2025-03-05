@@ -1,0 +1,28 @@
+<macro name="hearing-ref">
+    <group delimiter=" ">
+        <text macro="jurisdiction-long" suffix="," />
+        <choose>
+            <if variable="body_in_title"/>
+            <else>
+                 <text variable="authority" suffix="," />
+            </else>
+        </choose>
+        <text variable="committee" suffix=","/>
+        <text macro="book-title" suffix="," />
+        <text macro="parl-publication" />
+        <text macro="full-date" />
+        <choose>
+            <if variable="chair">
+                    <group delimiter=": " prefix="(" suffix=")">
+                        <text term="chair"/>
+                        <text macro="author"  />
+                    </group>
+            </if>
+            <else>
+                <text macro="author" prefix="(" suffix=")" />
+            </else>
+        </choose>
+    </group>
+    <text variable="URL" prefix=", " />
+    <text macro="pinpoint" prefix=" " />
+</macro>

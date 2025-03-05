@@ -1,0 +1,16 @@
+<macro name="journal-ref">
+ <group delimiter=" ">
+  <text macro="author" suffix="," />
+  <group>
+    <text macro="quoted-title" />
+    <choose>
+        <if variable="case-comment">
+        <text value=","/>
+        </if>
+    </choose>
+  </group>
+  <text macro="case-comment" />
+  <text macro="journal-publication" />
+  <text macro="pinpoint" />
+ </group>
+</macro>

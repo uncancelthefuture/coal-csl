@@ -1,0 +1,3 @@
+<macro name="name-format">
+    <name and="symbol" delimiter=", " delimiter-precedes-last="never" initialize-with="."/>
+</macro>

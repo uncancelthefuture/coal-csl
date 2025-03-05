@@ -1,0 +1,8 @@
+<macro name="editor">
+ <names variable="editor">
+  <text macro="name-format">
+  </text>
+  <label form="short" prefix=", " suffix=",">
+  </label>
+ </names>
+</macro>

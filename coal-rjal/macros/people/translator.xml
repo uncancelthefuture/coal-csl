@@ -1,0 +1,14 @@
+<macro name="translator">
+ <if variable="translator">
+  <group delimiter=" ">
+   <text term="translator">
+   </text>
+   <text term="by">
+   </text>
+   <names variable="translator">
+    <text macro="name-format">
+    </text>
+   </names>
+  </group>
+ </if>
+</macro>

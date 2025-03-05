@@ -1,0 +1,18 @@
+<macro name="dictionary-ref">
+    <group delimiter=" ">
+    <choose>
+        <if variable="author">
+            <text macro="author" />
+        </if>
+        <else-if>
+            <text macro="editor" />
+        </else-if>
+    </choose>
+        <group> 
+            <text macro="container-title" />
+            <text macro="edition" prefix=", " />
+        </group>
+        <text macro="book-publication-info" />
+        <text macro="dictionary-entry" />
+    </group>
+</macro>

@@ -1,0 +1,5 @@
+<macro name="author">
+ <names variable="author">
+  <text macro="name-format" />
+ </names>
+</macro>

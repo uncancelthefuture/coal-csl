@@ -1,0 +1,20 @@
+<macro name="volume-issue">
+    <group delimiter=", ">
+        <choose>
+            <if variable="volume">
+                <group delimiter=" ">
+                    <text term="debate-vol" form="short" />
+                    <number variable="volume" />
+                </group>
+            </if>
+        </choose>
+        <choose>
+            <if variable="issue">
+                <group delimiter=" ">
+                    <text term="number" form="short" />
+                    <number variable="issue" />
+                </group>
+            </if>
+        </choose>
+    </group>
+</macro>

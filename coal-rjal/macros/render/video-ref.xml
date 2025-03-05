@@ -1,0 +1,10 @@
+<macro name="video-ref">
+    <group delimiter=" ">
+        <text macro="director" suffix="," />
+        <text macro="quoted-title" />
+        <text macro="date-modified" />
+        <text variable="URL" />
+        <text macro="access-and-or-archive"/>
+        <text macro="pinpoint" />
+    </group>
+</macro>

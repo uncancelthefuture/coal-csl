@@ -1,0 +1,7 @@
+<macro name="journal-publication">
+    <group delimiter=" ">
+        <text macro="journal-year" />
+        <text macro="volume-issue" />
+        <text macro="container-title" />
+    </group>
+</macro>

@@ -1,0 +1,6 @@
+<macro name="supplement-no">
+    <group delimiter=" " prefix="(" suffix=")">
+        <number variable="number" form="ordinal"/>
+        <text term="supplement" form="short"/>
+    </group>
+</macro>
