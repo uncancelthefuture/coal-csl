@@ -2,7 +2,7 @@ from bs4 import BeautifulSoup
 from glob import glob
 
 def run():
-    csl = BeautifulSoup('<style xmlns="http://purl.org/net/xbiblio/csl" class="note" version="1.1"></style>', 'xml')
+    csl = BeautifulSoup('<style xmlns="http://purl.org/net/xbiblio/csl" class="note" version="1.0.2"></style>', 'xml')
 
     parts = glob('coal-rjal/*')
 
