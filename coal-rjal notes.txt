@@ -9,6 +9,7 @@ COAL-RJAL
 - develop a time line in the new year
 
 TO DO
+- fix et al
 - figure out how to do multiple locators
 - encyclopedias
 	- need to try classics

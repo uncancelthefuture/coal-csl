@@ -1,4 +1,4 @@
-<layout suffix=".">
+<layout delimiter = "; " suffix=".">
     <choose>
         <if type="book">
             <text macro="book-ref" />
