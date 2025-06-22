@@ -1,0 +1,7 @@
+{
+    "emeraldwalk.runonsave": {
+        "commands": [{
+            "match": ".*",
+            "cmd": "${workspaceFolder}/run.sh"}]
+    }
+}
