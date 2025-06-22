@@ -7,6 +7,7 @@ COAL-RJAL
 	- court abbreviations
 	- pinpoint mid parrallel citation
 - develop a time line in the new year
+- https://citeproc-js.readthedocs.io/en/latest/csl-m/index.html#supplement-extension
 
 TO DO
 - fix et al

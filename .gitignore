@@ -1,0 +1,7 @@
+.vscode/settings.json
+__pycache__/citationcreator.cpython-311.pyc
+__pycache__/create_citations.cpython-311.pyc
+run.sh
+zoter_access.py
+databaseInterface.py
+court-gen.py

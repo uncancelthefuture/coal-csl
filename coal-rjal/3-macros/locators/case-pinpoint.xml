@@ -1,0 +1,8 @@
+<macro name="case-pinpoint">
+    <group delimiter=" ">
+    <text term="at"/>
+    <label variable="locator" form="short"/>
+    <text variable="locator"/>
+    <text variable="archive" prefix="(" suffix=")"/>
+    </group>
+</macro>

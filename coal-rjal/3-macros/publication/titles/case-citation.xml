@@ -1,0 +1,13 @@
+<macro name="case-citation">
+    <choose>
+        <if variable="container-title">
+                <text macro="reporter" />
+        </if>
+        <else-if variable="collection-number">
+            <text macro="neutral-citation" />
+        </else-if>
+        <else>
+            <text macro="unreported" />
+        </else>
+    </choose>
+</macro>

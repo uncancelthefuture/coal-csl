@@ -1,0 +1,20 @@
+<macro name="reporter">
+    <group delimiter=" ">
+        <choose>
+            <if>
+                <conditions match="all">
+                    <condition variable="collection-number volume" match="nand"/>
+                </conditions>
+                <text variable="collection-number"/>
+                <text variable="volume"/>
+            </if>
+            <else>
+                <text variable="collection-title" prefix="[" suffix="]"/>
+                <text variable="volume"/>
+            </else>
+        </choose>
+        
+        <text variable="container-title" form="short"/>
+        <text variable="page"/>
+    </group>
+</macro>

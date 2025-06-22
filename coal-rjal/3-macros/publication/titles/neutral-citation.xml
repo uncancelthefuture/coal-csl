@@ -1,7 +1,10 @@
 <macro name="neutral-citation">
     <group delimiter=" ">
         <text macro="year-issued"/>
-        <text macro="canadian-court"/>
+        <names variable="authority">
+            <name suppress-min="0"/>
+            <institution form="short"/>
+        </names>
         <number variable="document-number"/>
     </group>
 </macro>

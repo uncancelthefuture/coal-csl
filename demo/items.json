@@ -1352,13 +1352,13 @@
 				}
 			}
 		},
-		"authority": "court.kings.bench",
+		"authority": "supreme.court",
 		"collection-number": "2016",
 		"number": "36068",
 		"title": "R v Jordan",
 		"URL": "https://canlii.ca/t/gsds3",
 		"document-number": "27",
-		"jurisdiction": "ca:ab",
+		"jurisdiction": "ca",
 		"accessed": {
 			"date-parts": [
 				[
@@ -1377,6 +1377,381 @@
 				]
 			]
 		},
+		"seeAlso": [
+			"http://zotero.org/groups/5899098/items/3MN5FGZI"
+		]
+	},
+	{
+		"id": "http://zotero.org/groups/5899098/items/AQHLITGV",
+		"type": "classic",
+		"multi": {
+			"main": {},
+			"_keys": {}
+		},
+		"title": "Agriculture (Western)",
+		"issued": {
+			"date-parts": [
+				[
+					"2020",
+					7
+				]
+			]
+		},
+		"seeAlso": []
+	},
+	{
+		"id": "http://zotero.org/groups/5899098/items/B33X4QWK",
+		"type": "classic",
+		"multi": {
+			"main": {},
+			"_keys": {}
+		},
+		"title": "Canadian Encyclopedic Digest",
+		"volume": "Agriculture (Western)",
+		"issued": {
+			"date-parts": [
+				[
+					"2020",
+					7
+				]
+			]
+		},
+		"seeAlso": []
+	},
+	{
+		"id": "http://zotero.org/groups/5899098/items/5W7EHRK5",
+		"type": "legal_case",
+		"multi": {
+			"main": {},
+			"_keys": {}
+		},
+		"authority": "court.appeal",
+		"container-title": "Dominion Law Reports",
+		"page": "549",
+		"title": "Westholme Lumber Co. v St. James Ltd.",
+		"volume": "21",
+		"jurisdiction": "ca:bc",
+		"issued": {
+			"date-parts": [
+				[
+					"1915"
+				]
+			]
+		},
+		"seeAlso": [
+			"http://zotero.org/groups/5899098/items/F9WGVICX"
+		]
+	},
+	{
+		"id": "http://zotero.org/groups/5899098/items/F9WGVICX",
+		"type": "legal_case",
+		"multi": {
+			"main": {},
+			"_keys": {}
+		},
+		"authority": "court.appeal",
+		"container-title": "WWR",
+		"page": "122",
+		"title": "Westholme Lumber Co. v St. James Ltd.",
+		"volume": "8",
+		"jurisdiction": "ca:bc",
+		"issued": {
+			"date-parts": [
+				[
+					"1915"
+				]
+			]
+		},
+		"seeAlso": [
+			"http://zotero.org/groups/5899098/items/5W7EHRK5"
+		]
+	},
+	{
+		"id": "http://zotero.org/groups/5899098/items/64USADJ5",
+		"type": "legal_case",
+		"multi": {
+			"main": {},
+			"_keys": {}
+		},
+		"abstract": "Access all information related to judgment Kapeluck v. Yablonski, 1997 CanLII 9726 (SK CA) on CanLII.",
+		"authority": "court.appeal",
+		"container-title": "CanLII",
+		"language": "en",
+		"page": "9726",
+		"title": "Kapeluck v. Yablonski",
+		"URL": "https://www.canlii.org/en/sk/skca/doc/1997/1997canlii9726/1997canlii9726.html?resultId=6f3442c13e754a2ebba6285283cc5efe&searchId=2025-04-12T10:11:12:634/850d72c99bf2441d97f861db3feaa170&searchUrlHash=AAAAAQAUS2FwZWx1Y2sgdiBZYWJsb25za2kAAAAAAQ",
+		"volume": "1997",
+		"jurisdiction": "ca:sk",
+		"issued": {
+			"date-parts": [
+				[
+					"1997",
+					10,
+					4
+				]
+			]
+		},
+		"submitted": {
+			"date-parts": [
+				[
+					"1997"
+				]
+			]
+		},
+		"seeAlso": [
+			"http://zotero.org/groups/5899098/items/NWPH7DLF"
+		]
+	},
+	{
+		"id": "http://zotero.org/groups/5899098/items/NWPH7DLF",
+		"type": "legal_case",
+		"multi": {
+			"main": {},
+			"_keys": {}
+		},
+		"abstract": "Access all information related to judgment Kapeluck v. Yablonski, 1997 CanLII 9726 (SK CA) on CanLII.",
+		"archive": "Lexis",
+		"authority": "court.appeal",
+		"container-title": "Saskatchewan Reports",
+		"language": "en",
+		"page": "231",
+		"title": "Kapeluck v. Yablonski",
+		"URL": "https://www.canlii.org/en/sk/skca/doc/1997/1997canlii9726/1997canlii9726.html?resultId=6f3442c13e754a2ebba6285283cc5efe&searchId=2025-04-12T10:11:12:634/850d72c99bf2441d97f861db3feaa170&searchUrlHash=AAAAAQAUS2FwZWx1Y2sgdiBZYWJsb25za2kAAAAAAQ",
+		"volume": "152",
+		"jurisdiction": "ca:sk",
+		"issued": {
+			"date-parts": [
+				[
+					"1997",
+					10,
+					4
+				]
+			]
+		},
+		"seeAlso": [
+			"http://zotero.org/groups/5899098/items/64USADJ5"
+		]
+	},
+	{
+		"id": "http://zotero.org/groups/5899098/items/3F85CI2Q",
+		"type": "legal_case",
+		"multi": {
+			"main": {},
+			"_keys": {}
+		},
+		"container-title": "NBR",
+		"note": "collection-title:2",
+		"page": "345",
+		"title": "English v English",
+		"volume": "25",
+		"jurisdiction": "ca",
+		"issued": {
+			"date-parts": [
+				[
+					"1979"
+				]
+			]
+		},
+		"seeAlso": [
+			"http://zotero.org/groups/5899098/items/I7QCN4C7"
+		]
+	},
+	{
+		"id": "http://zotero.org/groups/5899098/items/WG8FYJ4K",
+		"type": "legal_case",
+		"multi": {
+			"main": {},
+			"_keys": {}
+		},
+		"authority": "supreme.court.prov",
+		"collection-number": "1996",
+		"container-title": "CanLII",
+		"number": "21913",
+		"page": "152",
+		"title": "Kei-Ron Holdings Ltd. v. Coquihalla Motor Inn Ltd.",
+		"URL": "https://www.canlii.org/en/bc/bcsc/doc/1996/1996canlii3443/1996canlii3443.html?resultId=8370eae0f8224316b27ff41c3c49a674&searchId=2025-04-18T10:15:48:108/101c101cc35b4bcdb2a1d6c403223f2f",
+		"jurisdiction": "ca:bc",
+		"accessed": {
+			"date-parts": [
+				[
+					"2025",
+					4,
+					18
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"1996"
+				]
+			]
+		},
+		"seeAlso": [
+			"http://zotero.org/groups/5899098/items/7IH554MP"
+		]
+	},
+	{
+		"id": "http://zotero.org/groups/5899098/items/7IH554MP",
+		"type": "legal_case",
+		"multi": {
+			"main": {},
+			"_keys": {}
+		},
+		"authority": "supreme.court.prov",
+		"container-title": "Canadian Law Review",
+		"number": "21913",
+		"page": "9",
+		"title": "Kei-Ron Holdings Ltd. v. Coquihalla Motor Inn Ltd.",
+		"URL": "https://www.canlii.org/en/bc/bcsc/doc/1996/1996canlii3443/1996canlii3443.html?resultId=8370eae0f8224316b27ff41c3c49a674&searchId=2025-04-18T10:15:48:108/101c101cc35b4bcdb2a1d6c403223f2f",
+		"volume": "29",
+		"jurisdiction": "ca:bc",
+		"accessed": {
+			"date-parts": [
+				[
+					"2025",
+					4,
+					18
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"1996"
+				]
+			]
+		},
+		"seeAlso": [
+			"http://zotero.org/groups/5899098/items/WG8FYJ4K"
+		]
+	},
+	{
+		"id": "http://zotero.org/groups/5899098/items/I7QCN4C7",
+		"type": "legal_case",
+		"multi": {
+			"main": {},
+			"_keys": {}
+		},
+		"authority": "--- Old --- Court of Queen's Bench",
+		"container-title": "APR",
+		"page": "345",
+		"title": "English v English",
+		"volume": "51",
+		"jurisdiction": "ca:nb",
+		"issued": {
+			"date-parts": [
+				[
+					"1979"
+				]
+			]
+		},
+		"seeAlso": [
+			"http://zotero.org/groups/5899098/items/3F85CI2Q"
+		]
+	},
+	{
+		"id": "http://zotero.org/groups/5899098/items/7KGV2QY9",
+		"type": "legal_case",
+		"multi": {
+			"main": {},
+			"_keys": {}
+		},
+		"jurisdiction": "ca",
+		"seeAlso": []
+	},
+	{
+		"id": "http://zotero.org/groups/5899098/items/3MN5FGZI",
+		"type": "legal_case",
+		"multi": {
+			"main": {},
+			"_keys": {
+				"title": {
+					"fr": "R c Jordan"
+				}
+			}
+		},
+		"authority": "supreme.court",
+		"collection-number": "2016",
+		"container-title": "SCR",
+		"page": "631",
+		"title": "R v Jordan",
+		"URL": "https://canlii.ca/t/gsds3",
+		"volume": "1",
+		"jurisdiction": "ca",
+		"accessed": {
+			"date-parts": [
+				[
+					"2025",
+					2,
+					4
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"2016",
+					8,
+					7
+				]
+			]
+		},
+		"seeAlso": [
+			"http://zotero.org/groups/5899098/items/BCWN2ZY9"
+		]
+	},
+	{
+		"id": "http://zotero.org/groups/5899098/items/THPCDNF5",
+		"type": "legal_case",
+		"multi": {
+			"main": {},
+			"_keys": {}
+		},
+		"authority": "court.kings.bench",
+		"number": "QBG‑SC-00144-2021",
+		"title": "Farm Credit Canada v 101258391 Saskatchewan Ltd.",
+		"jurisdiction": "ca:sk",
+		"division": "Swift Current",
+		"issued": {
+			"date-parts": [
+				[
+					"2022",
+					12,
+					16
+				]
+			]
+		},
+		"seeAlso": []
+	},
+	{
+		"id": "http://zotero.org/groups/5899098/items/9MTUURGU",
+		"type": "legal_case",
+		"multi": {
+			"main": {},
+			"_keys": {}
+		},
+		"authority": "ONLA",
+		"collection-number": "1992",
+		"container-title": "CanLII",
+		"page": "14449",
+		"title": "Guelph General Hospital v O.N.A.",
+		"admin-flag": "1",
+		"jurisdiction": "ca:on",
+		"seeAlso": []
+	},
+	{
+		"id": "http://zotero.org/groups/5899098/items/33Q5ST2E",
+		"type": "legal_case",
+		"multi": {
+			"main": {},
+			"_keys": {}
+		},
+		"authority": "FCCA",
+		"collection-number": "2022",
+		"title": "Dyer & Kaeser",
+		"document-number": "2171",
+		"jurisdiction": "au",
 		"seeAlso": []
 	}
 ]

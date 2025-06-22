@@ -6,7 +6,7 @@ import pytz
 from lxml import etree
 
 def run():
-    csl = BeautifulSoup('<style xmlns="http://purl.org/net/xbiblio/csl" class="note" version="1.0"></style>', 'xml')
+    csl = BeautifulSoup('<style xmlns="http://purl.org/net/xbiblio/csl" class="note" version="1.1"></style>', 'xml')
 
     parts = glob('coal-rjal/*')
     parts.sort()

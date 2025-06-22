@@ -1,4 +1,5 @@
-<style xmlns="http://purl.org/net/xbiblio/csl" class="note" version="1.0"><info><category citation-format="note"/>
+<style xmlns="http://purl.org/net/xbiblio/csl" class="note" version="1.1"><info><law-module types="legal_case legislation bill hearing report regulation"/>
+  <category citation-format="note"/>
   <title>Canadian Open Access Legal Citation Guide</title>
   <link href="https://canlii.ca/t/7nc6q" rel="documentation"/>
   <id>9fd87cea-cec4-49bb-91c8-078c0d4fb7e8</id>
@@ -41,9 +42,9 @@
   </contributor>
   <contributor><name>Amy Kaufman</name>
   </contributor>
-  <updated>2025-03-13T23:39:03.533876+00:00</updated>
+  <updated>2025-06-22T19:03:28.331307+00:00</updated>
  </info>
- <citation><layout delimiter="; " suffix="."><choose><if type="book"><text macro="book-ref"/>
+ <citation><layout delimiter="; " suffix="."><choose><if type="book classic"><text macro="book-ref"/>
     </if>
     <else-if type="chapter"><text macro="chapter-ref"/>
     </else-if>
@@ -57,21 +58,27 @@
     </else-if>
     <else-if type="motion_picture video"><text macro="video-ref"/>
     </else-if>
-    <else-if type="hearing"><text macro="hearing-ref"/>
+    <else-if country="ca"><choose><else-if type="hearing"><text macro="hearing-ref"/>
+      </else-if>
+      <else-if type="report"><text macro="report-ref"/>
+      </else-if>
+      <else-if type="legislation"><text macro="statute-ref"/>
+      </else-if>
+      <else-if type="bill"><text macro="bill-ref"/>
+      </else-if>
+      <else-if type="regulation"><text macro="regulation-ref"/>
+      </else-if>
+      <else-if type="legal_case"><text macro="case-ref"/>
+      </else-if>
+     </choose>
     </else-if>
-    <else-if type="report"><text macro="report-ref"/>
-    </else-if>
-    <else-if type="legislation"><text macro="statute-ref"/>
-    </else-if>
-    <else-if type="bill"><text macro="bill-ref"/>
-    </else-if>
-    <else-if type="regulation"><text macro="regulation-ref"/>
-    </else-if>
-    <else-if type="legal_case"><text macro="case-ref"/>
+    <else-if type="hearing report legislation bill regulation legal_case"><text macro="jurism"/>
     </else-if>
    </choose>
   </layout>
  </citation>
+ <macro name="juris-pretitle"><text value=""/>
+ </macro>
  <macro name="supplement-no"><group delimiter=" " prefix="(" suffix=")"><number form="ordinal" variable="number"/>
    <text form="short" term="supplement"/>
   </group>
@@ -79,46 +86,6 @@
  <macro name="statute-chapter"><group delimiter=" "><text form="short" term="statute-chapter-term"/>
    <text variable="volume"/>
   </group>
- </macro>
- <macro name="canadian-court"><choose><if jurisdiction="ca:ab"><text macro="ab-courts"/>
-   </if>
-   <else-if jurisdiction="ca:bc"><text form="short" term="ca:bc"/>
-   </else-if>
-   <else-if jurisdiction="ca:mb"><text form="short" term="ca:mb"/>
-   </else-if>
-   <else-if jurisdiction="ca:nb"><text form="short" term="ca:nb"/>
-   </else-if>
-   <else-if jurisdiction="ca:nl"><text form="short" term="ca:nl"/>
-   </else-if>
-   <else-if jurisdiction="ca:nt"><text form="short" term="ca:nt"/>
-   </else-if>
-   <else-if jurisdiction="ca:ns"><text form="short" term="ca:ns"/>
-   </else-if>
-   <else-if jurisdiction="ca:nu"><text form="short" term="ca:nu"/>
-   </else-if>
-   <else-if jurisdiction="ca:on"><text form="short" term="ca:on"/>
-   </else-if>
-   <else-if jurisdiction="ca:pe"><text form="short" term="ca:pe"/>
-   </else-if>
-   <else-if jurisdiction="ca:qc"><text form="short" term="ca:qc"/>
-   </else-if>
-   <else-if jurisdiction="ca:sk"><text form="short" term="ca:sk"/>
-   </else-if>
-   <else-if jurisdiction="ca:yk"><text form="short" term="ca:yk"/>
-   </else-if>
-   <else-if jurisdiction="ca"><choose><if authority="court.supreme"><text term="scc"/>
-     </if>
-    </choose>
-   </else-if>
-   <else><text variable="jurisdiction"/>
-   </else>
-  </choose>
- </macro>
- <macro name="ab-courts"><choose><if court="nan"><text term="abca"/>
-   </if>
-   <else><text value="ok"/>
-   </else>
-  </choose>
  </macro>
  <macro name="statute-section"><group delimiter=" "><choose><if variable="schedule"><text form="long" term="schedule"/>
     </if>
@@ -248,6 +215,21 @@
    </choose>
   </group>
  </macro>
+ <macro name="case-authority"><group parallel-last="authority"><choose><if variable="container-title"><group delimiter=" " prefix="(" suffix=")"><names variable="authority"><name/>
+       <institution institution-parts="short"/>
+      </names>
+     </group>
+    </if>
+    <else-if variable="collection-number"><text value=""/>
+    </else-if>
+    <else><group delimiter=" " prefix="(" suffix=")"><names variable="authority"><name/>
+       <institution institution-parts="short"/>
+      </names>
+     </group>
+    </else>
+   </choose>
+  </group>
+ </macro>
  <macro name="year-issued"><choose><if variable="issued"><date date-parts="year" form="text" variable="issued"></date>
    </if>
    <else><text term="no date"></text>
@@ -305,6 +287,14 @@
    </group>
   </group>
  </macro>
+ <macro name="case-citation"><choose><if variable="container-title"><text macro="reporter"/>
+   </if>
+   <else-if variable="collection-number"><text macro="neutral-citation"/>
+   </else-if>
+   <else><text macro="unreported"/>
+   </else>
+  </choose>
+ </macro>
  <macro name="parl-publication"><group delimiter=", "><text macro="legislation-number"/>
    <text macro="session-number"/>
    <text macro="volume-issue"/>
@@ -315,20 +305,29 @@
    <text macro="container-title"/>
   </group>
  </macro>
+ <macro name="unreported"><group delimiter=" "><text variable="division"/>
+   <text variable="number"/>
+  </group>
+ </macro>
  <macro name="neutral-citation"><group delimiter=" "><text macro="year-issued"/>
-   <text macro="canadian-court"/>
+   <names variable="authority"><name suppress-min="0"/>
+    <institution form="short"/>
+   </names>
    <number variable="document-number"/>
   </group>
  </macro>
- <macro name="court-name"><choose><if jurisdiction="ca"><choose><if authority="supreme.court"><text term="SCC"/>
-     </if>
-     <else-if authority="appeal.court"><text term="FCA"/>
-     </else-if>
-     <else-if><text term="FC"/>
-     </else-if>
-    </choose>
-   </if>
-  </choose>
+ <macro name="reporter"><group delimiter=" "><choose><if><conditions match="all"><condition match="nand" variable="collection-number volume"/>
+     </conditions>
+     <text variable="collection-number"/>
+     <text variable="volume"/>
+    </if>
+    <else><text prefix="[" suffix="]" variable="collection-title"/>
+     <text variable="volume"/>
+    </else>
+   </choose>
+   <text form="short" variable="container-title"/>
+   <text variable="page"/>
+  </group>
  </macro>
  <macro name="edition"><group delimiter=" "><number form="ordinal" variable="edition"></number>
    <label form="short" variable="edition"></label>
@@ -388,6 +387,9 @@
    <text macro="statute-chapter"/>
   </group>
   <text macro="pinpoint" prefix=" "/>
+ </macro>
+ <!-- Juris-M Macros-->
+ <macro name="juris-pretitle"><text value=""/>
  </macro>
  <macro name="newspaper-ref"><group delimiter=" "><text macro="author" suffix=", "/>
    <text macro="quoted-title"/>
@@ -481,8 +483,25 @@
   <text prefix=", " variable="URL"/>
   <text macro="pinpoint" prefix=" "/>
  </macro>
- <macro name="case-ref"><group delimiter=", "><text macro="book-title"/>
-   <text macro="neutral-citation"/>
+ <macro name="case-ref"><group delimiter=", " parallel-delimiter-override=", "><group delimiter=" " parallel-first="title"><text macro="book-title"/>
+    <choose><if><conditions match="all"><condition match="none" variable="collection-number container-title"/>
+      </conditions>
+      <date form="text" prefix="(" suffix=")" variable="issued"><date-part name="day" suffix=" "/>
+       <date-part name="month" suffix=" "/>
+       <date-part name="year"/>
+      </date>
+     </if>
+     <else-if><conditions match="all"><condition match="all" variable="container-title volume reporter"/>
+       <condition match="none" variable="collection-number"/>
+      </conditions>
+      <date date-parts="year" form="numeric" prefix="(" suffix=")" variable="issued"/>
+     </else-if>
+    </choose>
+   </group>
+   <group delimiter=" "><text macro="case-citation"/>
+    <text macro="case-pinpoint"/>
+    <text macro="case-authority"/>
+   </group>
   </group>
  </macro>
  <macro name="statute-ref"><choose><if variable="section"><text macro="in-statute-ref"/>
@@ -543,6 +562,12 @@
    <text term="at"/>
    <label form="short" variable="locator"/>
    <text variable="locator"/>
+  </group>
+ </macro>
+ <macro name="case-pinpoint"><group delimiter=" "><text term="at"/>
+   <label form="short" variable="locator"/>
+   <text variable="locator"/>
+   <text prefix="(" suffix=")" variable="archive"/>
   </group>
  </macro>
  <macro name="loose-leaf"><group delimiter=" " prefix="(" suffix=")"><text term="loose-leaf"/>
@@ -669,6 +694,13 @@
    <term form="long" name="ca:yk">Yukon</term>
    <term form="long" name="ca:bc">British Columbia</term>
    <term form="long" name="ca:pe">Prince Edward Island</term>
+   <term name="court">C</term>
+   <term name="territorial&gt;">TC</term>
+   <term name="superior">SC</term>
+   <term name="kings_bench&gt;">KB</term>
+   <term name="supreme">SC</term>
+   <term name="appeal">CA</term>
+   <term name="justice">CJ</term>
    <term name="nbpc">NBPC</term>
    <term name="nbca">NBCA</term>
    <term name="nbkb">NBKB</term>

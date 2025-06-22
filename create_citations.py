@@ -9,19 +9,21 @@ def safe_open_w(path):
     os.makedirs(os.path.dirname(path), exist_ok=True)
     return open(path, 'w')
 
-def transform_citation(num, item):
+def transform_citation(num, keys):
     loc = ""
     label = ""
-    citation = [
-    { "citationID":f"{item['key']}-{str(num)}",
-      "citationItems": [{"id": "http://zotero.org/groups/5899098/items/" + item['key'],
-                          "locator":loc,
-                          "label": label}],
-      "properties":{"noteIndex":num}
-    },
-    [],
-    []
-    ]
+    for key in keys:
+        citationItems = [{"id": "http://zotero.org/groups/5899098/items/" + key,
+                            "locator":loc,
+                            "label": label} for key in keys]
+        citation = [
+        { "citationID":f"{keys[0]}-{str(num)}",
+        "citationItems": citationItems,
+        "properties":{"noteIndex":num}
+        },
+        [],
+        []
+        ]
     return citation
 
 def get_all_subcollections(lib : zotero.Zotero, key):
@@ -76,13 +78,24 @@ def list_key(d, l):
 def get_citations(collection, library : zotero.Zotero, lib_id):
     items = library.collection_items(lib_id)
     n = 0
+    used = set({})
     collection['citations'] = []    
     citations = collection['citations']
     for i in range(len(items)):
         item = items[i]
-        data = item['data']
-        citations += [transform_citation(n,data)]
-        n += 1
+        keys = []
+        if item['data']['relations'] != {}:
+            relation = item['data']['relations']['dc:relation']
+            
+            keys = [os.path.basename(relation)]
+        cite = item['data']['key']
+        if cite not in used:
+            keys = [cite] + keys
+            citations += [transform_citation(n,keys)]
+            for key in keys:
+                used.add(key)
+            print(used)
+            n += 1
 
 def citation_scan(h_lib, library,):
     sub = [key for key in h_lib.keys() if key not in ['name','citatons']]

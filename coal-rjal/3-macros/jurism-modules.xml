@@ -1,0 +1,34 @@
+<macro name="juris-pretitle">
+  <text value="" />
+</macro>
+<macro name="juris-title">
+  <text value="[HINT: Install the Myles plugin, available at https://juris-m.github.io/downloads]" />
+</macro>
+<macro name="juris-main">
+  <choose>
+      <if country="ca">
+        <text value="CANADA"/>
+      </if>
+      <else>
+        <text value=""/>
+      </else>
+  </choose>
+</macro>
+<macro name="juris-tail">
+  <text value="" />
+</macro>
+<macro name="juris-pretitle-short">
+  <text value="" />
+</macro>
+<macro name="juris-title-short">
+  <text value="" />
+</macro>
+<macro name="juris-main-short">
+  <text value="" />
+</macro>
+<macro name="juris-tail-short">
+  <text value="" />
+</macro>
+<macro name="juris-locator">
+  <text value="" />
+</macro>

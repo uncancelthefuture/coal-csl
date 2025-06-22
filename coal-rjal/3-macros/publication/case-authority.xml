@@ -1,0 +1,25 @@
+<macro name="case-authority">
+    <group parallel-last="authority">
+        <choose>
+            <if variable="container-title">
+                <group delimiter=" " prefix="(" suffix=")">
+                    <names variable="authority">
+                      <name/>
+                      <institution institution-parts="short"/>
+                    </names>
+                  </group>
+            </if>
+            <else-if variable="collection-number">
+                <text value=""/>
+            </else-if>
+            <else>
+                <group delimiter=" " prefix="(" suffix=")">
+                    <names variable="authority">
+                      <name/>
+                      <institution institution-parts="short"/>
+                    </names>
+                  </group>
+            </else>
+        </choose>
+    </group>
+</macro>

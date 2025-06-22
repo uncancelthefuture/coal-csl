@@ -1,6 +1,32 @@
 <macro name="case-ref">
-    <group delimiter=", ">
-        <text macro="book-title"/>
-		<text macro="neutral-citation"/>
+    <group delimiter=", " parallel-delimiter-override=", ">
+        <group parallel-first="title" delimiter=" ">
+            <text macro="book-title" />
+            <choose>
+                <if>
+                    <conditions match="all">
+                        <condition match="none" variable="collection-number container-title" />
+                    </conditions>
+                    <date variable="issued" form="text" prefix="(" suffix=")">
+                        <date-part name="day" suffix=" " />
+                        <date-part name="month" suffix=" " />
+                        <date-part name="year"/>
+                    </date>
+                </if>
+                <else-if>
+                    <conditions match="all">
+                        <condition match="all" variable="container-title volume reporter" />
+                        <condition match="none" variable="collection-number" />
+                    </conditions>
+                    <date variable="issued" form="numeric" date-parts="year" prefix="("
+                        suffix=")" />
+                </else-if>
+            </choose>
+        </group>
+        <group delimiter=" ">
+            <text macro="case-citation"/>
+            <text macro="case-pinpoint"/>
+            <text macro="case-authority"/>
+        </group>
     </group>
 </macro>

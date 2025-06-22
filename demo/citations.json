@@ -9,7 +9,90 @@
         "citations": [
             [
                 {
-                    "citationID": "BCWN2ZY9-0",
+                    "citationID": "7IH554MP-0",
+                    "citationItems": [
+                        {
+                            "id": "http://zotero.org/groups/5899098/items/7IH554MP",
+                            "locator": "",
+                            "label": ""
+                        },
+                        {
+                            "id": "http://zotero.org/groups/5899098/items/WG8FYJ4K",
+                            "locator": "",
+                            "label": ""
+                        }
+                    ],
+                    "properties": {
+                        "noteIndex": 0
+                    }
+                },
+                [],
+                []
+            ],
+            [
+                {
+                    "citationID": "3F85CI2Q-1",
+                    "citationItems": [
+                        {
+                            "id": "http://zotero.org/groups/5899098/items/3F85CI2Q",
+                            "locator": "",
+                            "label": ""
+                        }
+                    ],
+                    "properties": {
+                        "noteIndex": 1
+                    }
+                },
+                [],
+                []
+            ],
+            [
+                {
+                    "citationID": "64USADJ5-2",
+                    "citationItems": [
+                        {
+                            "id": "http://zotero.org/groups/5899098/items/64USADJ5",
+                            "locator": "",
+                            "label": ""
+                        },
+                        {
+                            "id": "http://zotero.org/groups/5899098/items/NWPH7DLF",
+                            "locator": "",
+                            "label": ""
+                        }
+                    ],
+                    "properties": {
+                        "noteIndex": 2
+                    }
+                },
+                [],
+                []
+            ],
+            [
+                {
+                    "citationID": "5W7EHRK5-3",
+                    "citationItems": [
+                        {
+                            "id": "http://zotero.org/groups/5899098/items/5W7EHRK5",
+                            "locator": "",
+                            "label": ""
+                        },
+                        {
+                            "id": "http://zotero.org/groups/5899098/items/F9WGVICX",
+                            "locator": "",
+                            "label": ""
+                        }
+                    ],
+                    "properties": {
+                        "noteIndex": 3
+                    }
+                },
+                [],
+                []
+            ],
+            [
+                {
+                    "citationID": "BCWN2ZY9-4",
                     "citationItems": [
                         {
                             "id": "http://zotero.org/groups/5899098/items/BCWN2ZY9",
@@ -18,7 +101,7 @@
                         }
                     ],
                     "properties": {
-                        "noteIndex": 0
+                        "noteIndex": 4
                     }
                 },
                 [],
@@ -496,7 +579,42 @@
         }
     },
     "3 Secondary": {
-        "citations": [],
+        "citations": [
+            [
+                {
+                    "citationID": "B33X4QWK-0",
+                    "citationItems": [
+                        {
+                            "id": "http://zotero.org/groups/5899098/items/B33X4QWK",
+                            "locator": "",
+                            "label": ""
+                        }
+                    ],
+                    "properties": {
+                        "noteIndex": 0
+                    }
+                },
+                [],
+                []
+            ],
+            [
+                {
+                    "citationID": "AQHLITGV-1",
+                    "citationItems": [
+                        {
+                            "id": "http://zotero.org/groups/5899098/items/AQHLITGV",
+                            "locator": "",
+                            "label": ""
+                        }
+                    ],
+                    "properties": {
+                        "noteIndex": 1
+                    }
+                },
+                [],
+                []
+            ]
+        ],
         "3.10 Video and Audio Recordings": {
             "citations": [
                 [

@@ -1,0 +1,6 @@
+<macro name="unreported">
+    <group delimiter=" ">
+        <text variable="division"/>
+        <text variable="number"/>
+    </group>
+</macro>
