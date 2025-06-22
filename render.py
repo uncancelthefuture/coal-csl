@@ -1,11 +1,30 @@
 from bs4 import BeautifulSoup
 from glob import glob
 import re
+import create_citations
 from datetime import datetime
 import pytz
 from lxml import etree
+import hashlib
 
 def run():
+    chunk_size = 4096
+    hasher = hashlib.sha256()
+    with open('demo/items.json', 'rb') as f:
+        while True:
+            chunk = f.read(chunk_size)
+            if not chunk:
+                break # End of file
+            hasher.update(chunk)
+        hash = hasher.hexdigest()
+    with open('hash.txt', 'r+') as f:
+        if f.read() != hash:
+            f.seek(0)
+            f.truncate()
+            f.write(hash)
+            create_citations.zotero_connection()
+
+
     csl = BeautifulSoup('<style xmlns="http://purl.org/net/xbiblio/csl" class="note" version="1.1"></style>', 'xml')
 
     parts = glob('coal-rjal/*')
