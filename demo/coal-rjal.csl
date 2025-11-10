@@ -42,41 +42,176 @@
   </contributor>
   <contributor><name>Amy Kaufman</name>
   </contributor>
-  <updated>2025-06-22T20:21:37.960991+00:00</updated>
+  <updated>2025-11-09T19:53:44.587301+00:00</updated>
  </info>
- <citation><layout delimiter="; " suffix="."><choose><if type="book classic"><text macro="book-ref"/>
-    </if>
-    <else-if type="chapter"><text macro="chapter-ref"/>
-    </else-if>
-    <else-if type="article-journal"><text macro="journal-ref"/>
-    </else-if>
-    <else-if type="entry-dictionary"><text macro="dictionary-ref"/>
-    </else-if>
-    <else-if type="post-weblog"><text macro="website-ref"/>
-    </else-if>
-    <else-if type="article-newspaper"><text macro="newspaper-ref"/>
-    </else-if>
-    <else-if type="motion_picture video"><text macro="video-ref"/>
-    </else-if>
-    <else-if country="ca"><choose><else-if type="hearing"><text macro="hearing-ref"/>
-      </else-if>
-      <else-if type="report"><text macro="report-ref"/>
-      </else-if>
-      <else-if type="legislation"><text macro="statute-ref"/>
-      </else-if>
-      <else-if type="bill"><text macro="bill-ref"/>
-      </else-if>
-      <else-if type="regulation"><text macro="regulation-ref"/>
-      </else-if>
-      <else-if type="legal_case"><text macro="case-ref"/>
-      </else-if>
-     </choose>
-    </else-if>
-    <else-if type="hearing report legislation bill regulation legal_case"><text macro="jurism"/>
-    </else-if>
-   </choose>
-  </layout>
- </citation>
+ <locale xml:lang="en"><style-options punctuation-in-quote="false"/>
+  <date delimiter=" " form="text"><date-part name="day"/>
+   <date-part name="month"/>
+   <date-part name="year"/>
+  </date>
+  <terms><term name="on">on</term>
+   <term name="archived">archived</term>
+   <term form="short" name="paragraph"><single>para</single>
+    <multiple>paras</multiple>
+   </term>
+   <term form="short" name="debate-vol">Vol</term>
+   <term form="short" name="volume"><single>vol</single>
+    <multiple>vols</multiple>
+   </term>
+   <term form="short" name="parl">Parl</term>
+   <term form="long" name="ass">Assembly</term>
+   <term form="short" name="supplement">Supp</term>
+   <term name="at">at</term>
+   <term name="case">case</term>
+   <term name="accessed">accessed</term>
+   <term name="by">by</term>
+   <term form="long" name="contained-in">contained in</term>
+   <term name="no date">n.d.</term>
+   <term name="translator">translated</term>
+   <term name="loose-leaf">loose-leaf</term>
+   <term form="short" name="leg">Leg</term>
+   <term form="short" name="chapter"><single>ch</single>
+    <multiple>chs</multiple>
+   </term>
+   <term form="short" name="gen-ass">Gen Ass</term>
+   <term form="long" name="sess">Session</term>
+   <term form="short" name="section"><single>s</single>
+    <multiple>ss</multiple>
+   </term>
+   <term form="short" name="editor"><single>ed</single>
+    <multiple>eds</multiple>
+   </term>
+   <term name="ordinal">th</term>
+   <term name="ordinal-11">th</term>
+   <term name="modified">modified</term>
+   <term name="ordinal-12">th</term>
+   <term name="ordinal-13">th</term>
+   <term name="chair">Chair</term>
+   <term form="short" name="statute-chapter-term">c</term>
+   <term form="short" name="ass">Ass</term>
+   <term name="ordinal-03">rd</term>
+   <term name="comment">comment</term>
+   <term name="ordinal-02">nd</term>
+   <term form="long" name="schedule"><single>Schedule</single>
+    <multiple>Schedules</multiple>
+   </term>
+   <term form="short" name="clause"><single>cl</single>
+    <multiple>cls</multiple>
+   </term>
+   <term name="ordinal-01">st</term>
+   <term form="short" name="sess">Sess</term>
+   <term form="short" name="footnote"><single>fn</single>
+    <multiple>fns</multiple>
+   </term>
+   <term name="bc">BCE</term>
+   <term name="updated">updated</term>
+   <term form="short" name="page"><single>p</single>
+    <multiple>pp</multiple>
+   </term>
+   <term name="to">to</term>
+   <term form="long" name="leg">Legislature</term>
+   <term name="release">release</term>
+   <term name="et-al">et al.</term>
+   <term form="long" name="bill">Bill</term>
+   <term form="short" name="article"><single>art</single>
+    <multiple>arts</multiple>
+   </term>
+   <term form="short" name="number">No</term>
+   <term form="short" name="edition"><single>ed</single>
+    <multiple>eds</multiple>
+   </term>
+   <term form="short" name="figure"><single>fig</single>
+    <multiple>figs</multiple>
+   </term>
+   <term form="long" name="parl">Parliament</term>
+   <term form="long" name="gen-ass">General Assembly</term>
+   <term form="short" name="ca:nu">NU</term>
+   <term form="long" name="ca:nu">Nunavut</term>
+   <term form="short" name="ca:nt">NT</term>
+   <term form="long" name="ca:nt">Northwest Territories</term>
+   <term form="short" name="ca:ab">AB</term>
+   <term form="long" name="ca:ab">Alberta</term>
+   <term form="short" name="ca:sk">SK</term>
+   <term form="long" name="ca:sk">Saskatchewan</term>
+   <term form="short" name="ca:qc">QC</term>
+   <term form="long" name="ca:qc">Quebec</term>
+   <term form="short" name="ca:nl">NL</term>
+   <term form="long" name="ca:nl">Newfoundland and Labrador</term>
+   <term form="short" name="ca:ns">NS</term>
+   <term form="long" name="ca:ns">Nova Scotia</term>
+   <term form="short" name="ca:on">ON</term>
+   <term form="long" name="ca:on">Ontario</term>
+   <term form="short" name="ca:mb">MB</term>
+   <term form="long" name="ca:mb">Manitoba</term>
+   <term form="short" name="ca:nb">NB</term>
+   <term form="long" name="ca:nb">New Brunswick</term>
+   <term form="short" name="ca">CA</term>
+   <term form="long" name="ca">Canada</term>
+   <term form="short" name="ca:yk">YK</term>
+   <term form="long" name="ca:yk">Yukon</term>
+   <term form="short" name="ca:bc">BC</term>
+   <term form="long" name="ca:bc">British Columbia</term>
+   <term form="short" name="ca:pe">PE</term>
+   <term form="long" name="ca:pe">Prince Edward Island</term>
+   <term name="court">C</term>
+   <term name="territorial&gt;">TC</term>
+   <term name="superior">SC</term>
+   <term name="kings_bench&gt;">KB</term>
+   <term name="supreme">SC</term>
+   <term name="appeal">CA</term>
+   <term name="justice">CJ</term>
+   <term name="nbpc">NBPC</term>
+   <term name="nbca">NBCA</term>
+   <term name="nbkb">NBKB</term>
+   <term name="ykca">YKCA</term>
+   <term name="yktc">YKTC</term>
+   <term name="yksc">YKSC</term>
+   <term name="skca">SKCA</term>
+   <term name="skpc">SKPC</term>
+   <term name="skkb">SKKB</term>
+   <term name="mbkb">MBKB</term>
+   <term name="mbpc">MBPC</term>
+   <term name="mbca">MBCA</term>
+   <term name="nucj">NUCJ</term>
+   <term name="nuca">NUCA</term>
+   <term name="nssc">NSSC</term>
+   <term name="nsca">NSCA</term>
+   <term name="pesctd">PESCTD</term>
+   <term name="pescad">PESCAD</term>
+   <term name="nttc">NTTC</term>
+   <term name="ntsc">NTSC</term>
+   <term name="ntca">NTCA</term>
+   <term name="bcca">BCCA</term>
+   <term name="bcpc">BCPC</term>
+   <term name="bcsc">BCSC</term>
+   <term name="nlsc">NLSC</term>
+   <term name="nlca">NLCA</term>
+   <term name="nlpc">NLPC</term>
+   <term name="fca">FCA</term>
+   <term name="fc">FC</term>
+   <term name="scc">SCC</term>
+   <term name="qccq">QCCQ</term>
+   <term name="qccs">QCCS</term>
+   <term name="qcca">QCCA</term>
+   <term name="abcj">ABCJ</term>
+   <term name="abkb">ABKB</term>
+   <term name="abca">ABCA</term>
+  </terms>
+  <terms></terms>
+  <terms></terms>
+  <terms></terms>
+  <terms></terms>
+  <terms></terms>
+  <terms></terms>
+  <terms></terms>
+  <terms></terms>
+  <terms></terms>
+  <terms></terms>
+  <terms></terms>
+  <terms></terms>
+  <terms></terms>
+  <terms/>
+ </locale>
  <macro name="juris-pretitle"><text value=""/>
  </macro>
  <macro name="supplement-no"><group delimiter=" " prefix="(" suffix=")"><number form="ordinal" variable="number"/>
@@ -215,6 +350,7 @@
    </choose>
   </group>
  </macro>
+ <macro name="test-court"></macro>
  <macro name="case-authority"><group parallel-last="authority"><choose><if variable="container-title"><group delimiter=" " prefix="(" suffix=")"><names variable="authority"><name/>
        <institution institution-parts="short"/>
       </names>
@@ -230,15 +366,24 @@
    </choose>
   </group>
  </macro>
+ <macro name="date-issued-text"><choose><if variable="issued"><date delimiter=" " form="text" variable="issued"><date-parts name="day"/>
+     <date-parts name="month"/>
+     <date-parts name="year"/>
+    </date>
+   </if>
+   <else><text term="no date"/>
+   </else>
+  </choose>
+ </macro>
  <macro name="year-issued"><choose><if variable="issued"><date date-parts="year" form="text" variable="issued"></date>
    </if>
    <else><text term="no date"></text>
    </else>
   </choose>
  </macro>
- <macro name="journal-year"><choose><if variable="issued"><date date-parts="year" form="text" prefix="(" suffix=")" variable="issued"></date>
+ <macro name="journal-year"><choose><if variable="issued"><date date-parts="year" form="text" prefix="(" suffix=")" variable="issued"/>
    </if>
-   <else><text term="no date"></text>
+   <else><text term="no date"/>
    </else>
   </choose>
  </macro>
@@ -246,7 +391,7 @@
    <date form="text" variable="publication-date"/>
   </group>
  </macro>
- <macro name="volume-issue"><group delimiter=":"><text variable="volume"/>
+ <macro name="journal-volume-issue"><group delimiter=":"><text variable="volume"/>
    <text variable="issue"/>
   </group>
  </macro>
@@ -274,17 +419,21 @@
   </choose>
  </macro>
  <macro name="date-modified"><group delimiter=" " prefix="(" suffix=")"><choose><if variable="modification-date"><text term="modified"/>
-     <text macro="year-issued"/>
+     <text macro="date-issued-text"/>
     </if>
-    <else><text macro="year-issued"/>
+    <else><text macro="date-issued-text"/>
     </else>
    </choose>
   </group>
  </macro>
  <macro name="book-publication-info"><group delimiter=", " prefix="(" suffix=")"><text variable="publisher"></text>
-   <group delimiter="/"><text macro="year-issued"></text>
-    <text macro="year-original"></text>
-   </group>
+   <choose><if variable="loose-leaf"><text macro="year-original"/>
+    </if>
+    <else><group delimiter="/"><text macro="year-issued"/>
+      <text macro="year-original"/>
+     </group>
+    </else>
+   </choose>
   </group>
  </macro>
  <macro name="case-citation"><choose><if variable="container-title"><text macro="reporter"/>
@@ -301,7 +450,7 @@
   </group>
  </macro>
  <macro name="journal-publication"><group delimiter=" "><text macro="journal-year"/>
-   <text macro="volume-issue"/>
+   <text macro="journal-volume-issue"/>
    <text macro="container-title"/>
   </group>
  </macro>
@@ -355,7 +504,39 @@
  </macro>
  <macro name="dictionary-entry"><text punctuation-in-quote="false" quotes="true" variable="title"/>
  </macro>
- <macro name="dictionary-ref"><group delimiter=" "><choose><if variable="author"><text macro="author"/>
+ <macro name="render-case-ca"><group parallel-delimiter-override=", "><group delimiter=" "><group delimiter=", "><group delimiter=" " parallel-first="authority title issued"><text font-style="italic" macro="juris-title" strip-periods="true"/>
+      <choose><if><conditions match="all"><condition match="all" type="legal_case" variable="container-title volume"/>
+         <condition match="none" variable="collection-number"/>
+        </conditions>
+        <date date-parts="year" form="numeric" prefix="(" suffix=")" variable="issued"/>
+       </if>
+      </choose>
+     </group>
+     <group delimiter=", "><group delimiter=" "><text macro="juris-main"/>
+       <text label-form="short" macro="juris-locator" strip-periods="true"/>
+      </group>
+      <choose><if match="all" variable="archive archive_location"><group parallel-last="issued submitted"><group parallel-last-to-first="issued submitted"><text macro="juris-tail" strip-periods="true"/>
+         </group>
+        </group>
+       </if>
+      </choose>
+     </group>
+    </group>
+    <choose><if><conditions match="all"><condition context="bibliography" match="none"/>
+       <condition position="first"/>
+      </conditions>
+      <group parallel-last="title-short title"><text font-style="italic" macro="juris-title-short" prefix="[" suffix="]"/>
+      </group>
+     </if>
+    </choose>
+    <group parallel-last="authority"><names prefix="(" suffix=")" variable="authority"><name supress-min="0"/>
+      <institution institution-parts="short" suppress-max="1"/>
+     </names>
+    </group>
+   </group>
+  </group>
+ </macro>
+ <macro name="render-dictionary"><group delimiter=" "><choose><if variable="author"><text macro="author"/>
     </if>
     <else-if><text macro="editor"/>
     </else-if>
@@ -367,41 +548,33 @@
    <text macro="dictionary-entry"/>
   </group>
  </macro>
- <macro name="chapter-ref"><group delimiter=" "><text macro="author" suffix=","></text>
-   <text macro="quoted-title" suffix=" in"></text>
-   <text macro="editor"></text>
-   <group><text macro="container-title"></text>
-    <text macro="edition" prefix=", "></text>
-    <text macro="translator" prefix=", "></text>
-   </group>
-   <text macro="book-publication-info"></text>
-   <text macro="pinpoint"></text>
-  </group>
- </macro>
- <macro name="regulation-ref"><group delimiter=", "><text macro="book-title"/>
-   <group delimiter=" "><text variable="container-title"/>
-    <choose><if variable="add-jurisdiction"><text macro="jurisdiction-short" prefix="(" suffix=")"/>
+ <macro name="render-journal"><group delimiter=" "><text macro="author" suffix=","/>
+   <group><text macro="quoted-title"/>
+    <choose><if variable="case-comment"><text value=","/>
      </if>
     </choose>
    </group>
-   <text macro="statute-chapter"/>
-  </group>
-  <text macro="pinpoint" prefix=" "/>
- </macro>
- <!-- Juris-M Macros-->
- <macro name="juris-pretitle"><text value=""/>
- </macro>
- <macro name="newspaper-ref"><group delimiter=" "><text macro="author" suffix=", "/>
-   <text macro="quoted-title"/>
-   <text macro="container-title"/>
-   <text macro="full-date"/>
-   <text macro="newspaper-locator"/>
-   <text macro="URL"/>
-   <text macro="access-and-or-archive"/>
+   <text macro="case-comment"/>
+   <text macro="journal-publication"/>
    <text macro="pinpoint"/>
   </group>
  </macro>
- <macro name="in-statute-ref"><group delimiter=", "><group delimiter=" "><text macro="book-title"/>
+ <macro name="render-statute"><choose><if variable="section"><text macro="render-in-statute"/>
+   </if>
+   <else><group delimiter=", "><text macro="book-title"/>
+     <group delimiter=" "><text variable="container-title"/>
+      <text macro="year-issued"/>
+      <text macro="session-number" prefix="(" suffix=")"/>
+     </group>
+     <group delimiter=" "><text macro="statute-chapter"/>
+      <text macro="supplement-no"/>
+      <text macro="pinpoint"/>
+     </group>
+    </group>
+   </else>
+  </choose>
+ </macro>
+ <macro name="render-in-statute"><group delimiter=", "><group delimiter=" "><text macro="book-title"/>
     <text macro="pinpoint"/>
    </group>
    <group delimiter=" "><text term="contained-in"/>
@@ -413,39 +586,7 @@
    <text macro="statute-section"/>
   </group>
  </macro>
- <macro name="book-ref"><group delimiter=" "><text macro="author" suffix=","/>
-   <text macro="editor"/>
-   <group><text macro="book-title"/>
-    <text macro="edition" prefix=", "/>
-    <text macro="translator" prefix=", "/>
-   </group>
-   <text macro="book-publication-info"/>
-   <text macro="pinpoint"></text>
-  </group>
- </macro>
- <macro name="report-ref"><choose><if variable="tax-doc"><text macro="tax-doc-ref"/>
-   </if>
-   <else><group delimiter=" "><text macro="jurisdiction" suffix=","/>
-     <choose><if variable="body_in_title"/>
-      <else><text suffix="," variable="authority"/>
-      </else>
-     </choose>
-     <text suffix="," variable="committee"/>
-     <group><text macro="book-title"/>
-      <text prefix=", " variable="other-relevant-information"/>
-     </group>
-     <text macro="parl-publication"/>
-     <group delimiter=", " prefix="(" suffix=")"><text variable="publisher"/>
-      <text macro="year-issued"/>
-     </group>
-    </group>
-    <text prefix=", " variable="URL"/>
-    <text macro="access-and-or-archive" prefix=" "/>
-   </else>
-  </choose>
-  <text macro="pinpoint" prefix=" "/>
- </macro>
- <macro name="bill-ref"><group delimiter=", "><group delimiter=" "><text term="bill"/>
+ <macro name="render-bill"><group delimiter=", "><group delimiter=" "><text term="bill"/>
     <number variable="number"/>
    </group>
    <text macro="book-title"/>
@@ -463,27 +604,50 @@
    </choose>
   </group>
  </macro>
- <macro name="hearing-ref"><group delimiter=" "><text macro="jurisdiction-long" suffix=","/>
-   <choose><if variable="body_in_title"/>
-    <else><text suffix="," variable="authority"/>
-    </else>
-   </choose>
-   <text suffix="," variable="committee"/>
-   <text macro="book-title" suffix=","/>
-   <text macro="parl-publication"/>
-   <text macro="full-date"/>
-   <choose><if variable="chair"><group delimiter=": " prefix="(" suffix=")"><text term="chair"/>
-      <text macro="author"/>
-     </group>
-    </if>
-    <else><text macro="author" prefix="(" suffix=")"/>
-    </else>
-   </choose>
+ <macro name="render-regulation"><group delimiter=", "><text macro="book-title"/>
+   <group delimiter=" "><text variable="container-title"/>
+    <choose><if variable="add-jurisdiction"><text macro="jurisdiction-short" prefix="(" suffix=")"/>
+     </if>
+    </choose>
+   </group>
+   <text macro="statute-chapter"/>
   </group>
-  <text prefix=", " variable="URL"/>
   <text macro="pinpoint" prefix=" "/>
  </macro>
- <macro name="case-ref"><group delimiter=", " parallel-delimiter-override=", "><group delimiter=" " parallel-first="title"><text macro="book-title"/>
+ <macro name="render-thesis"><group delimiter=" "><text macro="author" suffix=","/>
+   <group><text macro="book-title"/>
+   </group>
+   <group delimiter=", " prefix="(" suffix=")"><text variable="genre"/>
+    <text variable="publisher"/>
+    <text macro="year-issued"/>
+   </group>
+   <group prefix="(" suffix=")"><text variable="archive"/>
+   </group>
+   <text macro="pinpoint"></text>
+  </group>
+ </macro>
+ <macro name="render-tax-doc"><group delimiter=", "><text variable="authority"/>
+   <group delimiter=" "><text variable="genre"/>
+    <text variable="number"/>
+   </group>
+   <group delimiter=" "><text macro="book-title" quotes="true"/>
+    <text macro="year-issued" prefix="(" suffix=")"/>
+   </group>
+  </group>
+  <text macro="pinpoint" prefix=" "/>
+ </macro>
+ <!-- Juris-M Macros-->
+ <macro name="juris-pretitle"><text value=""/>
+ </macro>
+ <macro name="render-website"><group delimiter=" "><text macro="author" suffix=","/>
+   <text macro="quoted-title"/>
+   <text macro="date-modified"/>
+   <text variable="URL"/>
+   <text macro="access-and-or-archive"/>
+   <text macro="pinpoint"/>
+  </group>
+ </macro>
+ <macro name="render-case"><group delimiter=", " parallel-delimiter-override=", "><group delimiter=" " parallel-first="title"><text macro="book-title"/>
     <choose><if><conditions match="all"><condition match="none" variable="collection-number container-title"/>
       </conditions>
       <date form="text" prefix="(" suffix=")" variable="issued"><date-part name="day" suffix=" "/>
@@ -504,62 +668,94 @@
    </group>
   </group>
  </macro>
- <macro name="statute-ref"><choose><if variable="section"><text macro="in-statute-ref"/>
-   </if>
-   <else><group delimiter=", "><text macro="book-title"/>
-     <group delimiter=" "><text variable="container-title"/>
-      <text macro="year-issued"/>
-      <text macro="session-number" prefix="(" suffix=")"/>
-     </group>
-     <group delimiter=" "><text macro="statute-chapter"/>
-      <text macro="supplement-no"/>
-      <text macro="pinpoint"/>
-     </group>
-    </group>
-   </else>
-  </choose>
- </macro>
- <macro name="website-ref"><group delimiter=" "><text macro="author" suffix=","/>
-   <text macro="quoted-title"/>
-   <text macro="date-modified"/>
-   <text variable="URL"/>
-   <text macro="access-and-or-archive"/>
-   <text macro="pinpoint"/>
-  </group>
- </macro>
- <macro name="video-ref"><group delimiter=" "><text macro="director" suffix=","/>
-   <text macro="quoted-title"/>
-   <text macro="date-modified"/>
-   <text variable="URL"/>
-   <text macro="access-and-or-archive"/>
-   <text macro="pinpoint"/>
-  </group>
- </macro>
- <macro name="tax-doc-ref"><group delimiter=", "><text variable="authority"/>
-   <group delimiter=" "><text variable="genre"/>
-    <text variable="number"/>
+ <macro name="render-book"><group delimiter=" "><text macro="author" suffix=","/>
+   <text macro="editor"/>
+   <group><text macro="book-title"/>
+    <text macro="edition" prefix=", "/>
+    <text macro="translator" prefix=", "/>
    </group>
-   <group delimiter=" "><text macro="book-title" quotes="true"/>
-    <text macro="year-issued" prefix="(" suffix=")"/>
-   </group>
-  </group>
-  <text macro="pinpoint" prefix=" "/>
- </macro>
- <macro name="journal-ref"><group delimiter=" "><text macro="author" suffix=","/>
-   <group><text macro="quoted-title"/>
-    <choose><if variable="case-comment"><text value=","/>
-     </if>
-    </choose>
-   </group>
-   <text macro="case-comment"/>
-   <text macro="journal-publication"/>
-   <text macro="pinpoint"/>
-  </group>
- </macro>
- <macro name="pinpoint"><group delimiter=" "><choose><if variable="locator-extra"><text macro="loose-leaf"/>
+   <text macro="book-publication-info"/>
+   <choose><if variable="loose-leaf"><text macro="loose-leaf"/>
     </if>
    </choose>
-   <text term="at"/>
+   <text macro="pinpoint"></text>
+  </group>
+ </macro>
+ <macro name="render-video"><group delimiter=" "><text macro="director" suffix=","/>
+   <text macro="quoted-title"/>
+   <text macro="date-modified"/>
+   <text variable="URL"/>
+   <text macro="access-and-or-archive"/>
+   <text macro="pinpoint"/>
+  </group>
+ </macro>
+ <macro name="render-newspaper"><group delimiter=" "><text macro="author" suffix=", "/>
+   <text macro="quoted-title"/>
+   <text macro="container-title"/>
+   <text macro="full-date"/>
+   <text macro="newspaper-locator"/>
+   <text macro="URL"/>
+   <text macro="access-and-or-archive"/>
+   <text macro="pinpoint"/>
+  </group>
+ </macro>
+ <macro name="render-report"><choose><if variable="tax-doc"><text macro="render-tax-doc"/>
+   </if>
+   <else><group delimiter=" "><choose><if variable="jurisdiction"><text suffix="," variable="jurisdiction"/>
+      </if>
+      <else><text macro="author" suffix=","/>
+      </else>
+     </choose>
+     <choose><if variable="body_in_title"/>
+      <else><text suffix="," variable="authority"/>
+      </else>
+     </choose>
+     <text suffix="," variable="committee"/>
+     <group><text macro="book-title"/>
+      <text prefix=", " variable="other-relevant-information"/>
+     </group>
+     <group delimiter=", " prefix="(" suffix=")"><text variable="publisher"/>
+      <text macro="year-issued"/>
+     </group>
+    </group>
+    <text prefix=", " variable="URL"/>
+    <text macro="access-and-or-archive" prefix=" "/>
+   </else>
+  </choose>
+  <text macro="pinpoint" prefix=" "/>
+ </macro>
+ <macro name="render-hearing"><group delimiter=" "><text macro="jurisdiction-long" suffix=","/>
+   <choose><if variable="body_in_title"/>
+    <else><text suffix="," variable="authority"/>
+    </else>
+   </choose>
+   <text suffix="," variable="committee"/>
+   <text macro="book-title" suffix=","/>
+   <text macro="parl-publication"/>
+   <text macro="full-date"/>
+   <choose><if variable="chair"><group delimiter=": " prefix="(" suffix=")"><text term="chair"/>
+      <text macro="author"/>
+     </group>
+    </if>
+    <else><text macro="author" prefix="(" suffix=")"/>
+    </else>
+   </choose>
+  </group>
+  <text prefix=", " variable="URL"/>
+  <text macro="pinpoint" prefix=" "/>
+ </macro>
+ <macro name="render-chapter"><group delimiter=" "><text macro="author" suffix=","></text>
+   <text macro="quoted-title" suffix=" in"></text>
+   <text macro="editor"></text>
+   <group><text macro="container-title"></text>
+    <text macro="edition" prefix=", "></text>
+    <text macro="translator" prefix=", "></text>
+   </group>
+   <text macro="book-publication-info"></text>
+   <text macro="pinpoint"></text>
+  </group>
+ </macro>
+ <macro name="pinpoint"><group delimiter=" "><text term="at"/>
    <label form="short" variable="locator"/>
    <text variable="locator"/>
   </group>
@@ -570,16 +766,19 @@
    <text prefix="(" suffix=")" variable="archive"/>
   </group>
  </macro>
- <macro name="loose-leaf"><group delimiter=" " prefix="(" suffix=")"><text term="loose-leaf"/>
-   <choose><if variable="modification-date"><group delimiter=" " suffix=","><text term="updated"/>
-      <date variable="locator-date"><date-part name="month" suffix=" "/>
-       <date-part name="year"/>
-      </date>
+ <macro name="loose-leaf"><group delimiter=" " prefix="(" suffix=")"><choose><if variable="release"><group delimiter=" " suffix=","><text term="updated"/>
+      <date form="text" variable="issued"/>
      </group>
+     <text term="release"/>
+     <text variable="release"/>
     </if>
+    <else><text term="updated"/>
+     <text term="to"/>
+     <text term="release"/>
+     <date form="text" variable="issued"><date-part name="day"/>
+     </date>
+    </else>
    </choose>
-   <text term="release"/>
-   <text variable="locator-extra"/>
   </group>
  </macro>
  <macro name="newspaper-locator"><text variable="section"/>
@@ -596,7 +795,8 @@
    <label form="short" prefix=", " suffix=","></label>
   </names>
  </macro>
- <macro name="name-format"><name and="symbol" delimiter=", " delimiter-precedes-last="never" initialize-with="."/>
+ <macro name="name-format"><name and="symbol" delimiter=", " delimiter-precedes-last="never" et-al-min="4" et-al-use-first="1" initialize-with="."/>
+  <et-al term="et-al"/>
  </macro>
  <macro name="director"><names variable="director"><text macro="name-format"/>
   </names>
@@ -604,151 +804,49 @@
  <macro name="author"><names variable="author"><text macro="name-format"/>
   </names>
  </macro>
- <locale xml:lang="en"><terms><term name="on">on</term>
-   <term name="archived">archived</term>
-   <term form="short" name="paragraph"><single>para</single>
-    <multiple>paras</multiple>
-   </term>
-   <term form="short" name="debate-vol">Vol</term>
-   <term form="short" name="volume"><single>vol</single>
-    <multiple>vols</multiple>
-   </term>
-   <term form="short" name="parl">Parl</term>
-   <term form="long" name="ass">Assembly</term>
-   <term form="short" name="supplement">Supp</term>
-   <term name="at">at</term>
-   <term name="case">case</term>
-   <term name="accessed">accessed</term>
-   <term name="by">by</term>
-   <term form="long" name="contained-in">contained in</term>
-   <term name="no date">n.d.</term>
-   <term name="translator">translated</term>
-   <term name="loose-leaf">loose-leaf</term>
-   <term form="short" name="leg">Leg</term>
-   <term form="short" name="chapter"><single>ch</single>
-    <multiple>chs</multiple>
-   </term>
-   <term form="short" name="gen-ass">Gen Ass</term>
-   <term form="long" name="sess">Session</term>
-   <term form="short" name="section"><single>s</single>
-    <multiple>ss</multiple>
-   </term>
-   <term form="short" name="editor"><single>ed</single>
-    <multiple>eds</multiple>
-   </term>
-   <term name="ordinal">th</term>
-   <term name="ordinal-11">th</term>
-   <term name="modified">modified</term>
-   <term name="ordinal-12">th</term>
-   <term name="ordinal-13">th</term>
-   <term name="chair">Chair</term>
-   <term form="short" name="statute-chapter-term">c</term>
-   <term form="short" name="ass">Ass</term>
-   <term name="ordinal-03">rd</term>
-   <term name="comment">comment</term>
-   <term name="ordinal-02">nd</term>
-   <term form="long" name="schedule"><single>Schedule</single>
-    <multiple>Schedules</multiple>
-   </term>
-   <term form="short" name="clause"><single>cl</single>
-    <multiple>cls</multiple>
-   </term>
-   <term name="ordinal-01">st</term>
-   <term form="short" name="sess">Sess</term>
-   <term form="short" name="footnote"><single>fn</single>
-    <multiple>fns</multiple>
-   </term>
-   <term name="bc">BCE</term>
-   <term name="updated">updated</term>
-   <term form="short" name="page"><single>p</single>
-    <multiple>pp</multiple>
-   </term>
-   <term form="long" name="leg">Legislature</term>
-   <term name="release">release</term>
-   <term form="long" name="bill">Bill</term>
-   <term form="short" name="article"><single>art</single>
-    <multiple>arts</multiple>
-   </term>
-   <term form="short" name="number">No</term>
-   <term form="short" name="edition"><single>ed</single>
-    <multiple>eds</multiple>
-   </term>
-   <term form="short" name="figure"><single>fig</single>
-    <multiple>figs</multiple>
-   </term>
-   <term form="long" name="parl">Parliament</term>
-   <term form="long" name="gen-ass">General Assembly</term>
-   <term form="short" name="ca:nu">NU</term>
-   <term form="long" name="ca:nu">Nunavut</term>
-   <term form="short" name="ca:nt">NT</term>
-   <term form="long" name="ca:nt">Northwest Territories</term>
-   <term form="long" name="ca:ab">Alberta</term>
-   <term form="long" name="ca:sk">Saskatchewan</term>
-   <term form="long" name="ca:qc">Quebec</term>
-   <term form="long" name="ca:nl">Newfoundland and Labrador</term>
-   <term form="long" name="ca:ns">Nova Scotia</term>
-   <term form="long" name="ca:on">Ontario</term>
-   <term form="long" name="ca:mb">Manitoba</term>
-   <term form="long" name="ca:nb">New Brunswick</term>
-   <term form="long" name="ca">Canada</term>
-   <term form="long" name="ca:yk">Yukon</term>
-   <term form="long" name="ca:bc">British Columbia</term>
-   <term form="long" name="ca:pe">Prince Edward Island</term>
-   <term name="court">C</term>
-   <term name="territorial&gt;">TC</term>
-   <term name="superior">SC</term>
-   <term name="kings_bench&gt;">KB</term>
-   <term name="supreme">SC</term>
-   <term name="appeal">CA</term>
-   <term name="justice">CJ</term>
-   <term name="nbpc">NBPC</term>
-   <term name="nbca">NBCA</term>
-   <term name="nbkb">NBKB</term>
-   <term name="ykca">YKCA</term>
-   <term name="yktc">YKTC</term>
-   <term name="yksc">YKSC</term>
-   <term name="skca">SKCA</term>
-   <term name="skpc">SKPC</term>
-   <term name="skkb">SKKB</term>
-   <term name="mbkb">MBKB</term>
-   <term name="mbpc">MBPC</term>
-   <term name="mbca">MBCA</term>
-   <term name="nucj">NUCJ</term>
-   <term name="nuca">NUCA</term>
-   <term name="nssc">NSSC</term>
-   <term name="nsca">NSCA</term>
-   <term name="pesctd">PESCTD</term>
-   <term name="pescad">PESCAD</term>
-   <term name="nttc">NTTC</term>
-   <term name="ntsc">NTSC</term>
-   <term name="ntca">NTCA</term>
-   <term name="bcca">BCCA</term>
-   <term name="bcpc">BCPC</term>
-   <term name="bcsc">BCSC</term>
-   <term name="nlsc">NLSC</term>
-   <term name="nlca">NLCA</term>
-   <term name="nlpc">NLPC</term>
-   <term name="fca">FCA</term>
-   <term name="fc">FC</term>
-   <term name="scc">SCC</term>
-   <term name="qccq">QCCQ</term>
-   <term name="qccs">QCCS</term>
-   <term name="qcca">QCCA</term>
-   <term name="abcj">ABCJ</term>
-   <term name="abkb">ABKB</term>
-   <term name="abca">ABCA</term>
-   <term form="short" name="ca:pe">PE</term>
-   <term form="short" name="ca:bc">BC</term>
-   <term form="short" name="ca:yk">YK</term>
-   <term form="short" name="ca">CA</term>
-   <term form="short" name="ca:nb">NB</term>
-   <term form="short" name="ca:mb">MB</term>
-   <term form="short" name="ca:on">ON</term>
-   <term form="short" name="ca:ns">NS</term>
-   <term form="short" name="ca:nl">NL</term>
-   <term form="short" name="ca:qc">QC</term>
-   <term form="short" name="ca:sk">SK</term>
-   <term form="short" name="ca:ab">AB</term>
-  </terms>
- </locale>
+ <citation><layout delimiter="; " suffix="."><group parallel-delimiter-override=", "><choose><if type="book classic"><text macro="render-book"/>
+     </if>
+     <else-if type="chapter"><text macro="render-chapter"/>
+     </else-if>
+     <else-if type="thesis"><text macro="render-thesis"/>
+     </else-if>
+     <else-if type="article-journal"><text macro="render-journal"/>
+     </else-if>
+     <else-if type="entry-dictionary"><text macro="render-dictionary"/>
+     </else-if>
+     <else-if type="post-weblog"><text macro="render-website"/>
+     </else-if>
+     <else-if type="article-newspaper"><text macro="render-newspaper"/>
+     </else-if>
+     <else-if type="motion_picture video"><text macro="render-video"/>
+     </else-if>
+     <else-if type="hearing report legislation bill regulation legal_case"><choose><if><conditions match="all"><condition country="ca"/>
+        </conditions>
+        <choose><if type="hearing"><text macro="render-hearing"/>
+         </if>
+         <else-if type="report"><text macro="render-report"/>
+         </else-if>
+         <else-if type="legislation"><text macro="render-statute"/>
+         </else-if>
+         <else-if type="bill"><text macro="render-bill"/>
+         </else-if>
+         <else-if type="regulation"><text macro="render-regulation"/>
+         </else-if>
+         <else-if type="legal_case"><text macro="render-case-ca"/>
+         </else-if>
+        </choose>
+       </if>
+       <else-if><conditions match="all"><condition match="none" variable="jurisdiction"/>
+         <condition type="report"/>
+        </conditions>
+        <text macro="render-report"/>
+       </else-if>
+       <else><text macro="jurism"/>
+       </else>
+      </choose>
+     </else-if>
+    </choose>
+   </group>
+  </layout>
+ </citation>
 </style>

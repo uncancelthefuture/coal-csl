@@ -1,6 +1,10 @@
 COAL-RJAL
 
 - something about Lexis
+- how should encyclopedias be cited:
+	- user creates entry in Jurism?
+	- user specifies entry in Word?
+- thesis -> genre is degree type
 - french
 	- quotation marks
 	- no paranthesis
@@ -10,7 +14,9 @@ COAL-RJAL
 - https://citeproc-js.readthedocs.io/en/latest/csl-m/index.html#supplement-extension
 
 TO DO
-- fix et al
+- why are loose-leaf updated using different date form
+- might some of the citations in 3.4.1 be incorrect?
+- 3.5.1 examples are not italicized
 - figure out how to do multiple locators
 - encyclopedias
 	- need to try classics

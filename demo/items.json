@@ -249,6 +249,7 @@
 			"_keys": {}
 		},
 		"medium": "loose-leaf",
+		"note": "original-date:2023\nloose-leaf:true",
 		"publisher": "Carswell",
 		"title": "Sookman: Computer, Internet, and Electronic Commerce Law",
 		"author": [
@@ -263,7 +264,8 @@
 		"issued": {
 			"date-parts": [
 				[
-					"2021"
+					"2023",
+					2
 				]
 			]
 		},
@@ -367,7 +369,7 @@
 		"author": [
 			{
 				"family": "Reid",
-				"given": "Andrew A.",
+				"given": "Andrew J.",
 				"multi": {
 					"_key": {}
 				}
@@ -522,13 +524,6 @@
 		"container-title": "Canadian Online Legal Dictionary",
 		"publisher": "Irwin Law",
 		"title": "curative proviso",
-		"issued": {
-			"date-parts": [
-				[
-					"2024"
-				]
-			]
-		},
 		"seeAlso": []
 	},
 	{
@@ -599,33 +594,6 @@
 			"date-parts": [
 				[
 					"2023"
-				]
-			]
-		},
-		"seeAlso": []
-	},
-	{
-		"id": "http://zotero.org/groups/5899098/items/CST2JABQ",
-		"type": "post-weblog",
-		"multi": {
-			"main": {},
-			"_keys": {}
-		},
-		"note": "modification-date:true",
-		"title": "Pet Agreement for Alberta Renters",
-		"URL": "https://www.cplea.ca/wp-content/uploads/PetAgreementFillable.pdf",
-		"author": [
-			{
-				"literal": "CPLEA",
-				"multi": {
-					"_key": {}
-				}
-			}
-		],
-		"issued": {
-			"date-parts": [
-				[
-					"2020"
 				]
 			]
 		},
@@ -997,6 +965,7 @@
 		"authority": "National Research Council of Canada",
 		"note": "supress-jurisdiction:true",
 		"title": "Laying the Foundations for Tomorrow’s Innovations: 2022-2023 Annual Report",
+		"jurisdiction": "ca",
 		"issued": {
 			"date-parts": [
 				[
@@ -1382,43 +1351,6 @@
 		]
 	},
 	{
-		"id": "http://zotero.org/groups/5899098/items/AQHLITGV",
-		"type": "classic",
-		"multi": {
-			"main": {},
-			"_keys": {}
-		},
-		"title": "Agriculture (Western)",
-		"issued": {
-			"date-parts": [
-				[
-					"2020",
-					7
-				]
-			]
-		},
-		"seeAlso": []
-	},
-	{
-		"id": "http://zotero.org/groups/5899098/items/B33X4QWK",
-		"type": "classic",
-		"multi": {
-			"main": {},
-			"_keys": {}
-		},
-		"title": "Canadian Encyclopedic Digest",
-		"volume": "Agriculture (Western)",
-		"issued": {
-			"date-parts": [
-				[
-					"2020",
-					7
-				]
-			]
-		},
-		"seeAlso": []
-	},
-	{
 		"id": "http://zotero.org/groups/5899098/items/5W7EHRK5",
 		"type": "legal_case",
 		"multi": {
@@ -1651,16 +1583,6 @@
 		]
 	},
 	{
-		"id": "http://zotero.org/groups/5899098/items/7KGV2QY9",
-		"type": "legal_case",
-		"multi": {
-			"main": {},
-			"_keys": {}
-		},
-		"jurisdiction": "ca",
-		"seeAlso": []
-	},
-	{
 		"id": "http://zotero.org/groups/5899098/items/3MN5FGZI",
 		"type": "legal_case",
 		"multi": {
@@ -1731,7 +1653,6 @@
 			"main": {},
 			"_keys": {}
 		},
-		"authority": "ONLA",
 		"collection-number": "1992",
 		"container-title": "CanLII",
 		"page": "14449",
@@ -1747,11 +1668,356 @@
 			"main": {},
 			"_keys": {}
 		},
-		"authority": "FCCA",
-		"collection-number": "2022",
+		"page": "2171",
 		"title": "Dyer & Kaeser",
-		"document-number": "2171",
-		"jurisdiction": "au",
+		"volume": "2022",
+		"jurisdiction": "gb",
+		"seeAlso": []
+	},
+	{
+		"id": "http://zotero.org/groups/5899098/items/RL3JVK2I",
+		"type": "bill",
+		"multi": {
+			"main": {},
+			"_keys": {}
+		},
+		"jurisdiction": "ca",
+		"seeAlso": []
+	},
+	{
+		"id": "http://zotero.org/groups/5899098/items/KJYREL33",
+		"type": "book",
+		"multi": {
+			"main": {},
+			"_keys": {}
+		},
+		"edition": "4",
+		"medium": "loose-leaf",
+		"note": "loose-leaf:true\noriginal-date:2000\nrelease:97",
+		"publisher": "LexisNexis",
+		"title": "Feeney’s Canadian Law of Wills",
+		"author": [
+			{
+				"family": "MacKenzie",
+				"given": "James",
+				"multi": {
+					"_key": {}
+				}
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2025"
+				]
+			]
+		},
+		"seeAlso": []
+	},
+	{
+		"id": "http://zotero.org/groups/5899098/items/BESCH2UE",
+		"type": "article-journal",
+		"multi": {
+			"main": {},
+			"_keys": {}
+		},
+		"container-title": "University of Ottawa Law & Technology Journal",
+		"issue": "1-2",
+		"title": "Code, Access to Knowledge and the Law: The Governance of Knowledge in the Digital Age",
+		"volume": "5",
+		"author": [
+			{
+				"family": "Broumas",
+				"given": "Antonio",
+				"multi": {
+					"_key": {}
+				}
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2008"
+				]
+			]
+		},
+		"seeAlso": []
+	},
+	{
+		"id": "http://zotero.org/groups/5899098/items/ENJIBR6A",
+		"type": "post-weblog",
+		"multi": {
+			"main": {},
+			"_keys": {}
+		},
+		"note": "modification-date:true",
+		"title": "Self-represented litigants",
+		"URL": "https://www.scc-csc.ca/parties/self-rep-non-rep",
+		"author": [
+			{
+				"literal": "Supreme Court of Canada",
+				"multi": {
+					"_key": {}
+				}
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2025",
+					5,
+					27
+				]
+			]
+		},
+		"seeAlso": []
+	},
+	{
+		"id": "http://zotero.org/groups/5899098/items/5V3HA8FW",
+		"type": "hearing",
+		"multi": {
+			"main": {},
+			"_keys": {}
+		},
+		"authority": "Legislative Assembly",
+		"chapter-number": "1",
+		"collection-number": "39",
+		"issue": "2",
+		"title": "Official Report of Debates of the Legislative Assembly (Hansard)",
+		"jurisdiction": "ca:bc",
+		"issued": {
+			"date-parts": [
+				[
+					"2009",
+					11,
+					23
+				]
+			]
+		},
+		"seeAlso": []
+	},
+	{
+		"id": "http://zotero.org/groups/5899098/items/2GAWG8B4",
+		"type": "hearing",
+		"multi": {
+			"main": {},
+			"_keys": {}
+		},
+		"authority": "Legislative Assembly",
+		"chapter-number": "2",
+		"collection-number": "38",
+		"issue": "2",
+		"title": "Debates",
+		"volume": "LV",
+		"jurisdiction": "ca",
+		"committee": "Standing Committee on Justice",
+		"author": [
+			{
+				"family": "Mackintosh",
+				"given": "Gord",
+				"multi": {
+					"_key": {}
+				}
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2004",
+					11,
+					18
+				]
+			]
+		},
+		"seeAlso": []
+	},
+	{
+		"id": "http://zotero.org/groups/5899098/items/JJ4NH43H",
+		"type": "classic",
+		"multi": {
+			"main": {},
+			"_keys": {}
+		},
+		"seeAlso": []
+	},
+	{
+		"id": "http://zotero.org/groups/5899098/items/78HSIKTJ",
+		"type": "entry-encyclopedia",
+		"multi": {
+			"main": {},
+			"_keys": {}
+		},
+		"container-title": "Canadian Encyclopedic Digest",
+		"edition": "4",
+		"title": "Agriculture",
+		"seeAlso": []
+	},
+	{
+		"id": "http://zotero.org/groups/5899098/items/WKAUHA7U",
+		"type": "thesis",
+		"multi": {
+			"main": {},
+			"_keys": {}
+		},
+		"archive": "ProQuest Dissertations & Theses Global",
+		"genre": "DJS",
+		"publisher": "University of Toronto",
+		"title": "The Future of Mandatory Reporting Laws: Developing a Legal and policy Framework for Determining What Reporting Obligations to Impose on Professionals",
+		"author": [
+			{
+				"family": "Martin",
+				"given": "Andrew Gordon David Flavelle",
+				"multi": {
+					"_key": {}
+				}
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2017"
+				]
+			]
+		},
+		"seeAlso": []
+	},
+	{
+		"id": "http://zotero.org/groups/5899098/items/5AI7P7NA",
+		"type": "report",
+		"multi": {
+			"main": {},
+			"_keys": {}
+		},
+		"publisher": "National Self-Represented Litigants Project",
+		"title": "Virtual Justice: A complex portrait of Canadian self-represented litigant experiences with virtual hearings",
+		"author": [
+			{
+				"family": "Leitch",
+				"given": "Jennifer",
+				"multi": {
+					"_key": {}
+				}
+			},
+			{
+				"family": "Cornwall",
+				"given": "Dayna",
+				"multi": {
+					"_key": {}
+				}
+			},
+			{
+				"family": "Lundgren",
+				"given": "",
+				"literal": "Lundgren",
+				"multi": {
+					"_key": {}
+				}
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2024",
+					5
+				]
+			]
+		},
+		"seeAlso": []
+	},
+	{
+		"id": "http://zotero.org/groups/5899098/items/EYYF48JY",
+		"type": "report",
+		"multi": {
+			"main": {},
+			"_keys": {}
+		},
+		"publisher": "Trans PULSE Canada",
+		"title": "Police Experiences Among Trans and Non-Binary Sex Workers in Canada: An Intersectional Perspective",
+		"URL": "https://transpulsecanada.ca/",
+		"author": [
+			{
+				"family": "Scheim",
+				"given": "Ayden I.",
+				"multi": {
+					"_key": {}
+				}
+			},
+			{
+				"family": "Santos",
+				"given": "Heather",
+				"multi": {
+					"_key": {}
+				}
+			},
+			{
+				"family": "Ciavarella",
+				"given": "Sophia",
+				"multi": {
+					"_key": {}
+				}
+			},
+			{
+				"family": "Vermilion",
+				"given": "Jelena",
+				"multi": {
+					"_key": {}
+				}
+			},
+			{
+				"family": "Arps",
+				"given": "Freddie S. E.",
+				"multi": {
+					"_key": {}
+				}
+			},
+			{
+				"family": "Adams",
+				"given": "Noah",
+				"multi": {
+					"_key": {}
+				}
+			},
+			{
+				"family": "Nation",
+				"given": "Kelendria",
+				"multi": {
+					"_key": {}
+				}
+			},
+			{
+				"family": "Bauer",
+				"given": "Greta R.",
+				"multi": {
+					"_key": {}
+				}
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2023",
+					3,
+					3
+				]
+			]
+		},
+		"seeAlso": []
+	},
+	{
+		"id": "http://zotero.org/groups/5899098/items/Y75LAFN3",
+		"type": "legal_case",
+		"multi": {
+			"main": {},
+			"_keys": {}
+		},
+		"authority": "house.of.lords",
+		"collection-number": "2009",
+		"container-title": "All ER",
+		"page": "223",
+		"title": "King v Director of the Serious Fraud Office",
+		"volume": "2",
+		"document-number": "17",
+		"jurisdiction": "gb",
 		"seeAlso": []
 	}
 ]

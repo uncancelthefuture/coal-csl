@@ -1,4 +1,4 @@
-<macro name="newspaper-ref">
+<macro name="render-newspaper">
     <group delimiter=" ">
         <text macro="author" suffix=", "/>
         <text macro="quoted-title" />

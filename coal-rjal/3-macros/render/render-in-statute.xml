@@ -1,4 +1,4 @@
-<macro name="in-statute-ref">
+<macro name="render-in-statute">
     <group delimiter=", ">
         <group delimiter=" ">
             <text macro="book-title" />

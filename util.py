@@ -1,7 +1,8 @@
 from bs4 import BeautifulSoup
 from glob import glob
+import os
 
-files = glob('coal-rjal/locale/terms/*.xml')
+files = glob('coal-rjal/2-locale/terms/*.xml')
 
 for filename in files:
 
@@ -18,3 +19,9 @@ for filename in files:
         f.write(str(term))
         f.truncate()
 
+files = glob('coal-rjal/3-macros/render/*.xml')
+
+for filename in files:
+    l = len('coal-rjal/3-macros/render/')
+    new_filename = filename[:l] + "render-" + filename[l:-8] + ".xml"
+    os.rename(filename, new_filename)

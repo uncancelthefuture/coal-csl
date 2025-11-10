@@ -1,4 +1,4 @@
-<macro name="hearing-ref">
+<macro name="render-hearing">
     <group delimiter=" ">
         <text macro="jurisdiction-long" suffix="," />
         <choose>

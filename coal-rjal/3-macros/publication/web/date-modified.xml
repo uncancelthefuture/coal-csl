@@ -3,10 +3,10 @@
         <choose>
             <if variable="modification-date">
                 <text term="modified" />
-                <text macro="year-issued" />
+                <text macro="date-issued-text"/>
             </if>
             <else>
-                <text macro="year-issued" />
+                <text macro="date-issued-text"/>
             </else>
         </choose>
     </group>

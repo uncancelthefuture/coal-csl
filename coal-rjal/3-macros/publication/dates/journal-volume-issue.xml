@@ -1,4 +1,4 @@
-<macro name="volume-issue">
+<macro name="journal-volume-issue">
     <group delimiter=":">
         <text variable="volume" />
         <text variable="issue" />

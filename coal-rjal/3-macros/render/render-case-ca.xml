@@ -1,0 +1,55 @@
+<macro name="render-case-ca">
+    <group parallel-delimiter-override=", ">
+        <group delimiter=" ">
+            <group delimiter=", ">
+                <group parallel-first="authority title issued" delimiter=" ">
+                    <text macro="juris-title" strip-periods="true" font-style="italic" />
+                    <choose>
+                        <if>
+                            <conditions match="all">
+                                <condition match="all" type="legal_case"
+                                    variable="container-title volume" />
+                                <condition match="none" variable="collection-number" />
+                            </conditions>
+                            <date variable="issued" form="numeric" date-parts="year" prefix="("
+                                suffix=")" />
+                        </if>
+                    </choose>
+                </group>
+                <group delimiter=", ">
+                    <group delimiter=" ">
+                        <text macro="juris-main" />
+                        <text macro="juris-locator" label-form="short" strip-periods="true" />
+                    </group>
+                    <choose>
+                        <if match="all" variable="archive archive_location">
+                            <group parallel-last="issued submitted">
+                                <group parallel-last-to-first="issued submitted">
+                                    <text macro="juris-tail" strip-periods="true" />
+                                </group>
+                            </group>
+                        </if>
+                    </choose>
+                </group>
+
+            </group>
+            <choose>
+                <if>
+                    <conditions match="all">
+                        <condition match="none" context="bibliography" />
+                        <condition position="first" />
+                    </conditions>
+                    <group parallel-last="title-short title">
+                        <text macro="juris-title-short" prefix="[" suffix="]" font-style="italic" />
+                    </group>
+                </if>
+            </choose>
+            <group parallel-last="authority">
+                <names variable="authority" prefix="(" suffix=")">
+                    <name supress-min="0"/>
+                    <institution institution-parts="short" suppress-max="1" />
+                </names>
+            </group>
+        </group>
+    </group>
+</macro>

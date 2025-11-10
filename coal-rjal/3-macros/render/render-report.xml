@@ -1,11 +1,19 @@
-<macro name="report-ref">
+<macro name="render-report">
     <choose>
         <if variable="tax-doc">
-            <text macro="tax-doc-ref" />
+            <text macro="render-tax-doc" />
         </if>
         <else>
             <group delimiter=" ">
-                <text macro="jurisdiction" suffix="," />
+                <choose>
+                    <if variable="jurisdiction">
+                        <text variable="jurisdiction" suffix="," />
+                        
+                    </if>
+                    <else>
+                        <text macro="author" suffix="," />
+                    </else>
+                </choose>
                 <choose>
                     <if variable="body_in_title" />
                     <else>
@@ -17,12 +25,10 @@
                     <text macro="book-title" />
                     <text variable="other-relevant-information" prefix=", " />
                 </group>
-                <text macro="parl-publication" />
                 <group delimiter=", " prefix="(" suffix=")">
                     <text variable="publisher" />
                     <text macro="year-issued" />
                 </group>
-
             </group>
             <text variable="URL" prefix=", " />
             <text macro="access-and-or-archive" prefix=" " />

@@ -1,10 +1,5 @@
 <macro name="pinpoint">
     <group delimiter=" ">
-        <choose>
-            <if variable="locator-extra">
-                <text macro="loose-leaf"/>
-            </if>
-        </choose>
         <text term="at" />
         <label form="short" variable="locator" />
         <text variable="locator" />

@@ -1,4 +1,4 @@
-<macro name="book-ref">
+<macro name="render-book">
  <group delimiter=" ">
   <text macro="author" suffix=","/>
   <text macro="editor"/>
@@ -8,6 +8,11 @@
    <text macro="translator" prefix=", "/>
   </group>
   <text macro="book-publication-info"/>
+  <choose>
+    <if variable="loose-leaf">
+        <text macro="loose-leaf"/>
+    </if>
+  </choose>
   <text macro="pinpoint">
   </text>
  </group>

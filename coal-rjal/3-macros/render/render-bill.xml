@@ -1,4 +1,4 @@
-<macro name="bill-ref">
+<macro name="render-bill">
     <group delimiter=", ">
         <group delimiter=" ">
             <text term="bill" />

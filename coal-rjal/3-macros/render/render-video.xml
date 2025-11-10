@@ -1,4 +1,4 @@
-<macro name="video-ref">
+<macro name="render-video">
     <group delimiter=" ">
         <text macro="director" suffix="," />
         <text macro="quoted-title" />

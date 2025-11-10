@@ -1,4 +1,4 @@
-<macro name="tax-doc-ref">
+<macro name="render-tax-doc">
     <group delimiter=", ">
         <text variable="authority"/>
         <group delimiter=" ">

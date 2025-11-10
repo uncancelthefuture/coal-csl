@@ -1,0 +1,15 @@
+<macro name="date-issued-text">
+    <choose>
+        <if variable="issued">
+            <date variable="issued" form="text" delimiter=" ">
+        <date-parts name="day"/>
+        <date-parts name="month"/>
+        <date-parts name="year"/>
+    </date >
+        </if>
+        <else>
+            <text term="no date"/>
+        </else>
+    </choose>
+    
+</macro>

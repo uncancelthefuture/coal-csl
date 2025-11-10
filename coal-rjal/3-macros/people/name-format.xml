@@ -1,3 +1,4 @@
 <macro name="name-format">
-    <name and="symbol" delimiter=", " delimiter-precedes-last="never" initialize-with="."/>
+    <name and="symbol" delimiter=", " delimiter-precedes-last="never" initialize-with="." et-al-min="4" et-al-use-first="1"/>
+    <et-al term="et-al"/>
 </macro>

@@ -1,18 +1,22 @@
 <macro name="loose-leaf">
     <group prefix="(" suffix=")" delimiter=" ">
-        <text term="loose-leaf" />
         <choose>
-            <if variable="modification-date">
+            <if variable="release">
                 <group delimiter=" " suffix=",">
                     <text term="updated" />
-                    <date variable="locator-date">
-                        <date-part name="month" suffix=" " />
-                        <date-part name="year" />
-                    </date>
+                    <date variable="issued" form="text"/>
                 </group>
+                <text term="release" />
+                <text variable="release" />
             </if>
+        <else>
+            <text term="updated"/>
+            <text term="to"/>
+            <text term="release"/>
+            <date variable="issued" form="text">
+                <date-part name="day"/>
+            </date>
+        </else>
         </choose>
-        <text term="release" />
-        <text variable="locator-extra" />
     </group>
 </macro>

@@ -1,0 +1,69 @@
+<layout delimiter="; " suffix=".">
+    <group parallel-delimiter-override=", ">
+        <choose>
+            <if type="book classic">
+                <text macro="render-book" />
+            </if>
+            <else-if type="chapter">
+                <text macro="render-chapter" />
+            </else-if>
+            <else-if type="thesis">
+                <text macro="render-thesis" />
+            </else-if>
+            <else-if type="article-journal">
+                <text macro="render-journal" />
+            </else-if>
+            <else-if type="entry-dictionary">
+                <text macro="render-dictionary" />
+            </else-if>
+            <else-if type="post-weblog">
+                <text macro="render-website" />
+            </else-if>
+            <else-if type="article-newspaper">
+                <text macro="render-newspaper" />
+            </else-if>
+            <else-if type="motion_picture video">
+                <text macro="render-video" />
+            </else-if>
+            <else-if type="hearing report legislation bill regulation legal_case">
+                <choose>
+                    <if>
+                        <conditions match="all">
+                            <condition country="ca" />
+                        </conditions>
+                        <choose>
+                            <if type="hearing">
+                                <text macro="render-hearing" />
+                            </if>
+                            <else-if type="report">
+                                <text macro="render-report" />
+                            </else-if>
+                            <else-if type="legislation">
+                                <text macro="render-statute" />
+                            </else-if>
+                            <else-if type="bill">
+                                <text macro="render-bill" />
+                            </else-if>
+                            <else-if type="regulation">
+                                <text macro="render-regulation" />
+                            </else-if>
+                            <else-if type="legal_case">
+                                <text macro="render-case-ca" />
+                            </else-if>
+                        </choose>
+                    </if>
+                    <else-if>
+                        <conditions match="all">
+                            <condition match="none" variable="jurisdiction" />
+                            <condition type="report" />
+                        </conditions>
+                        <text macro="render-report" />
+                    </else-if>
+                    <else>
+                        <text macro="jurism" />
+                    </else>
+                </choose>
+            </else-if>
+        </choose>
+    </group>
+</layout>

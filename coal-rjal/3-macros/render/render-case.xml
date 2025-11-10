@@ -1,4 +1,4 @@
-<macro name="case-ref">
+<macro name="render-case">
     <group delimiter=", " parallel-delimiter-override=", ">
         <group parallel-first="title" delimiter=" ">
             <text macro="book-title" />

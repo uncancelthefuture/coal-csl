@@ -1,7 +1,7 @@
-<macro name="statute-ref">
+<macro name="render-statute">
     <choose>
         <if variable="section">
-            <text macro="in-statute-ref" />
+            <text macro="render-in-statute" />
         </if>
         <else>
             <group delimiter=", ">

@@ -1,4 +1,4 @@
-<macro name="journal-ref">
+<macro name="render-journal">
  <group delimiter=" ">
   <text macro="author" suffix="," />
   <group>

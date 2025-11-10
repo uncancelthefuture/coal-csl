@@ -1,4 +1,4 @@
-<macro name="dictionary-ref">
+<macro name="render-dictionary">
     <group delimiter=" ">
     <choose>
         <if variable="author">

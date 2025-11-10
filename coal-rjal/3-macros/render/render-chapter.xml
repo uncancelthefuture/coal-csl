@@ -1,4 +1,4 @@
-<macro name="chapter-ref">
+<macro name="render-chapter">
  <group delimiter=" ">
   <text macro="author" suffix=",">
   </text>

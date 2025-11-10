@@ -41,9 +41,12 @@ def run():
                 if part_name == 'macros':
                     csl.style.append(tag)
                 elif part_name == 'locale':
+                    part_tag.find(part_name).insert(i, tag)
                     sub_tags = tag.find_all('term')
+                    j = 0
                     for sub_tag in sub_tags:
-                        part_tag.find(part_name).insert(i, sub_tag)
+                        part_tag.find(part_name).insert(j, sub_tag)
+                        j += 1
                 else:
                     part_tag.find(part_name).insert(i, tag)
                 i += 1

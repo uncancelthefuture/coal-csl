@@ -1,0 +1,5 @@
+<date form="text" delimiter=" ">
+    <date-part name="day" />
+    <date-part name="month"/>
+    <date-part name="year"/>
+</date>

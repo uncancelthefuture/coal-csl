@@ -1,4 +1,4 @@
-<macro name="regulation-ref">
+<macro name="render-regulation">
     <group delimiter=", ">
         <text macro="book-title"/>
         <group delimiter=" ">

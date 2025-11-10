@@ -1,0 +1,18 @@
+<macro name="render-thesis">
+ <group delimiter=" ">
+  <text macro="author" suffix=","/>
+  <group>
+   <text macro="book-title"/>
+  </group>
+  <group prefix="(" suffix=")" delimiter=", " >
+    <text variable="genre"/>
+    <text variable="publisher"/>
+    <text macro="year-issued" />
+  </group>
+  <group  prefix="(" suffix=")" >
+    <text variable="archive"/>
+  </group>
+  <text macro="pinpoint">
+  </text>
+ </group>
+</macro>
